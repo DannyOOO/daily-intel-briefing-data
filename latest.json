@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-05-09T21:27:52.987245Z",
+  "edition": {
+    "id": "2026-05-09",
+    "date": "May 9, 2026",
+    "iso_date": "2026-05-09",
+    "time": "07:00",
+    "title": "Daily Intel Briefing — May 9, 2026",
+    "subtitle": "Nine signal items across hypersonics and space tracking, strategic nuclear systems, and artificial intelligence.",
+    "analyst_note": "The morning pattern is acceleration: counter-hypersonic architecture is moving toward integrated tests, nuclear modernization pressure is spreading from programs to production infrastructure, and AI governance is racing to keep pace with national-security and cyber-risk deployment.",
+    "read_time": "Under 3 minutes",
+    "sections": {
+      "hypersonics": [
+        {
+          "title": "Maverick Counter-Hypersonic Test Set for FY27",
+          "summary": "The Missile Defense Agency is preparing <a href='https://www.airandspaceforces.com/missile-defense-agency-counter-hypersonic-test-2027/' target='_blank'>Project Maverick</a>, a fiscal 2027 flight test meant to track and engage a hypersonic glide vehicle moving up the U.S. East Coast. The test is designed to link elevated sensors, space-based tracking, engage-on-remote battle management, and low-cost defeat concepts into one live operational chain.",
+          "why_it_matters": "This is a practical stress test of the U.S. hypersonic kill chain, not just another interceptor study. If the architecture works, it gives Golden Dome planners a credible path from tracking data to affordable engagement against maneuvering threats; if it slips, the sensor-to-shooter gap remains the limiting factor.",
+          "source_label": "Air & Space Forces: MDA Counter-Hypersonic Test",
+          "source_url": "https://www.airandspaceforces.com/missile-defense-agency-counter-hypersonic-test-2027/"
+        },
+        {
+          "title": "Space-Based Interceptor Team Moves Forward",
+          "summary": "Rocket Lab and Raytheon were selected to demonstrate advanced capabilities for the U.S. Space Force <a href='https://www.rocketlabusa.com/updates/rocket-lab-and-raytheon-selected-to-demonstrate-advanced-capabilities-for-u-s-space-forces-space-based-interceptor-program/' target='_blank'>Space Based Interceptor</a> program. Rocket Lab framed the effort as a response to hypersonic and maneuverable missile threats and pointed to its HASTE vehicle as part of its broader hypersonic test portfolio.",
+          "why_it_matters": "Space-based intercept is moving from concept language into industry demonstration work, which is a notable escalation in missile-defense ambition. The program could compress response timelines against fast, low-warning threats, but it also raises hard questions about cost, survivability, and orbital deployment scale.",
+          "source_label": "Rocket Lab: Raytheon Space Based Interceptor",
+          "source_url": "https://www.rocketlabusa.com/updates/rocket-lab-and-raytheon-selected-to-demonstrate-advanced-capabilities-for-u-s-space-forces-space-based-interceptor-program/"
+        },
+        {
+          "title": "India’s Mystery Launch Signals Longer-Reach Testing",
+          "summary": "A visible May 8 missile launch from India’s eastern coast triggered speculation after <a href='https://www.indiatoday.in/science/story/odisha-missile-launch-mystery-sky-trail-seen-from-bangladesh-after-chandipur-test-2909161-2026-05-09' target='_blank'>a long sky trail</a> was seen from Odisha to Bangladesh. India Today reported a roughly 3,560-kilometer NOTAM corridor, while Indian officials had not identified the missile at publication time.",
+          "why_it_matters": "The ambiguity matters because India is testing across both long-range strike and hypersonic-adjacent envelopes while keeping program details tightly controlled. Regional observers will treat the event as another indicator that South Asia’s missile competition is becoming faster, longer-ranged, and less transparent.",
+          "source_label": "India Today: Odisha Mystery Launch",
+          "source_url": "https://www.indiatoday.in/science/story/odisha-missile-launch-mystery-sky-trail-seen-from-bangladesh-after-chandipur-test-2909161-2026-05-09"
+        }
+      ],
+      "nuclear": [
+        {
+          "title": "NNSA Pushes Faster Warhead Design",
+          "summary": "The National Nuclear Security Administration’s FY2027 request would fund a new <a href='https://www.armscontrol.org/act/2026-05/news/us-moves-speed-nuclear-design-weapon-production' target='_blank'>rapid and advanced capabilities</a> program while increasing weapons-activity spending. The request also keeps major modernization lines moving, including W80-4, W87-1, W93, B61-13, and plutonium pit infrastructure.",
+          "why_it_matters": "Washington is not only sustaining legacy deterrence; it is trying to shorten the cycle between design decision and production capacity. That shift strengthens hedge options against Russia and China, but it also risks making arms-control diplomacy look increasingly detached from budget reality.",
+          "source_label": "Arms Control Today: Speeding Nuclear Production",
+          "source_url": "https://www.armscontrol.org/act/2026-05/news/us-moves-speed-nuclear-design-weapon-production"
+        },
+        {
+          "title": "Pentagon Overhaul Stretches Across the Triad",
+          "summary": "A Senate hearing reviewed the Pentagon’s high-stakes <a href='https://www.thecipherbrief.com/inside-the-pentagons-high-stakes-nuclear-overhaul' target='_blank'>nuclear modernization portfolio</a>, including Sentinel restructuring, Minuteman III sustainment options, B-21 timing, Columbia-class submarine plans, and command-and-control aircraft modernization. The discussion underscored that delays in one leg can cascade across the deterrent architecture.",
+          "why_it_matters": "The modernization program is now less a set of discrete acquisitions than a tightly coupled national deadline problem. Any major slip increases pressure to extend older systems, which can raise maintenance risk while adversary arsenals keep expanding.",
+          "source_label": "The Cipher Brief: Pentagon Nuclear Overhaul",
+          "source_url": "https://www.thecipherbrief.com/inside-the-pentagons-high-stakes-nuclear-overhaul"
+        },
+        {
+          "title": "Pantex Consolidates Nuclear Explosives Work",
+          "summary": "NNSA opened the High Explosives Synthesis, Formulation, and Production facility at Pantex, consolidating work from <a href='https://www.military.com/major-step-forward-15-wwii-era-facilities-consolidated-for-better-nuclear-deterrence' target='_blank'>15 World War II-era facilities</a>. The site supports high-explosives staging, laboratory work, and diagnostics tied to stockpile maintenance and surveillance.",
+          "why_it_matters": "Infrastructure modernization is the least glamorous part of nuclear deterrence, but it is often the bottleneck. Consolidating old facilities improves safety and throughput at a moment when the stockpile enterprise is being asked to do more work faster.",
+          "source_label": "Military.com: Pantex HESE Facility",
+          "source_url": "https://www.military.com/major-step-forward-15-wwii-era-facilities-consolidated-for-better-nuclear-deterrence"
+        }
+      ],
+      "ai": [
+        {
+          "title": "CAISI Expands Frontier AI Testing Deals",
+          "summary": "NIST’s Center for AI Standards and Innovation signed expanded <a href='https://www.nist.gov/news-events/news/2026/05/caisi-signs-agreements-regarding-frontier-ai-national-security-testing' target='_blank'>frontier AI national-security testing</a> agreements with Google DeepMind, Microsoft, and xAI. The agreements cover pre-deployment evaluations, post-deployment research, classified testing pathways, and input to the TRAINS Taskforce.",
+          "why_it_matters": "The U.S. government is building a more formal test-and-evaluate lane for the most capable private AI systems before they hit sensitive use cases. The key issue will be whether voluntary cooperation matures into dependable oversight fast enough for frontier model release cycles.",
+          "source_label": "NIST: CAISI Frontier AI Agreements",
+          "source_url": "https://www.nist.gov/news-events/news/2026/05/caisi-signs-agreements-regarding-frontier-ai-national-security-testing"
+        },
+        {
+          "title": "DIU Wants AI Drone-Targeting Assistance",
+          "summary": "The Defense Innovation Unit is seeking AI-enabled <a href='https://www.defensenews.com/industry/2026/05/07/pentagon-turns-to-ai-targeting-to-help-troops-shoot-drones/' target='_blank'>aided target recognition</a> for counter-drone missions. The solicitation begins with CROWS remote weapon stations and emphasizes human-in-the-loop use consistent with DoD AI principles.",
+          "why_it_matters": "Small drones have made reaction time the battlefield’s scarcest resource, and AI-assisted recognition is becoming a practical requirement rather than an experimental add-on. Keeping humans in the loop reduces policy risk, but the system will still have to prove reliability under clutter, spoofing, and fast engagements.",
+          "source_label": "Defense News: AI Targeting for C-UAS",
+          "source_url": "https://www.defensenews.com/industry/2026/05/07/pentagon-turns-to-ai-targeting-to-help-troops-shoot-drones/"
+        },
+        {
+          "title": "IMF Warns AI Could Scale Cyber Shocks",
+          "summary": "The IMF warned that advanced AI tools could turn cyber incidents into broader financial-stability risks by accelerating vulnerability discovery and exploitation across shared digital infrastructure. Its <a href='https://www.imf.org/en/blogs/articles/2026/05/07/financial-stability-risks-mount-as-artificial-intelligence-fuels-cyberattacks' target='_blank'>policy prescription</a> calls for resilience standards, cyber stress testing, board-level oversight, and stronger international coordination.",
+          "why_it_matters": "This frames AI-enabled cyber risk as a macro-financial problem, not only an IT or intelligence problem. If attackers can automate discovery and exploitation at scale, systemic institutions may need stress tests that assume machine-speed campaigns rather than isolated breaches.",
+          "source_label": "IMF: AI-Fueled Cyberattack Risks",
+          "source_url": "https://www.imf.org/en/blogs/articles/2026/05/07/financial-stability-risks-mount-as-artificial-intelligence-fuels-cyberattacks"
+        }
+      ]
+    }
+  },
+  "archive": [
+    {
+      "id": "2026-05-09",
+      "date": "May 9, 2026",
+      "iso_date": "2026-05-09",
+      "title": "Daily Intel Briefing — May 9, 2026",
+      "summary": "Project Maverick, Space Based Interceptor work, India missile testing ambiguity, NNSA rapid-design pressure, triad modernization strain, Pantex infrastructure, CAISI frontier-AI testing, DIU counter-drone targeting, and IMF warnings on AI-enabled cyber risk.",
+      "url": "archive/2026-05-09.json",
+      "item_count": 9
+    }
+  ]
+}
