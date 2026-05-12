@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Intel Briefing — May 12, 2026</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --border: #21262d;
+    --accent-hyp: #58a6ff;
+    --accent-nuke: #f78166;
+    --accent-ai: #3fb950;
+    --text-primary: #e6edf3;
+    --text-secondary: #8b949e;
+    --tag-bg: #21262d;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 24px 16px 60px;
+  }
+  .container { max-width: 860px; margin: 0 auto; }
+
+  /* Header */
+  .header { text-align: center; padding: 32px 0 28px; border-bottom: 1px solid var(--border); margin-bottom: 32px; }
+  .header .logo { font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: var(--text-secondary); margin-bottom: 10px; }
+  .header h1 { font-size: 26px; font-weight: 700; color: var(--text-primary); margin-bottom: 6px; }
+  .header .meta { font-size: 13px; color: var(--text-secondary); }
+  .header .tagline { margin-top: 10px; font-size: 13px; color: var(--text-secondary); font-style: italic; }
+
+  /* Section headers */
+  .section { margin-bottom: 36px; }
+  .section-header {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 16px; border-radius: 8px;
+    margin-bottom: 16px; font-size: 12px;
+    font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
+  }
+  .section-header.hyp  { background: rgba(88,166,255,0.08); color: var(--accent-hyp);  border-left: 3px solid var(--accent-hyp); }
+  .section-header.nuke { background: rgba(247,129,102,0.08); color: var(--accent-nuke); border-left: 3px solid var(--accent-nuke); }
+  .section-header.ai   { background: rgba(63,185,80,0.08);  color: var(--accent-ai);   border-left: 3px solid var(--accent-ai); }
+
+  /* Cards */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px 22px;
+    margin-bottom: 14px;
+    transition: border-color 0.15s;
+  }
+  .card:hover { border-color: #30363d; }
+  .card-title { font-size: 16px; font-weight: 600; color: var(--text-primary); margin-bottom: 8px; line-height: 1.4; }
+  .card-body { font-size: 14px; color: var(--text-secondary); margin-bottom: 12px; line-height: 1.65; }
+  .card-body a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+  .card-body a:hover { color: var(--text-primary); }
+
+  /* Why it matters */
+  .wim {
+    background: rgba(255,255,255,0.03);
+    border-left: 3px solid #30363d;
+    border-radius: 0 6px 6px 0;
+    padding: 10px 14px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+  .wim strong { color: var(--text-primary); font-size: 11px; letter-spacing: 1px; text-transform: uppercase; display: block; margin-bottom: 4px; }
+
+  /* Source link */
+  .source-link {
+    display: inline-flex; align-items: center; gap: 5px;
+    margin-top: 12px; font-size: 12px; color: var(--text-secondary);
+    text-decoration: none; border: 1px solid var(--border);
+    padding: 4px 10px; border-radius: 20px;
+    transition: all 0.15s;
+  }
+  .source-link:hover { color: var(--text-primary); border-color: #58a6ff; background: rgba(88,166,255,0.06); }
+  .source-link svg { flex-shrink: 0; }
+
+  /* Footer */
+  .footer { text-align: center; margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--border); font-size: 12px; color: var(--text-secondary); }
+  .footer a { color: var(--text-secondary); }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    .header h1 { font-size: 20px; }
+    .card { padding: 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <div class="logo">Manus AI · Daily Intel Briefing</div>
+    <h1>Morning Intel Briefing</h1>
+    <div class="meta">May 12, 2026 · 07:00 EDT EDT</div>
+    <div class="tagline">Your 3-minute download on what's moving the needle in hypersonics, nukes, and AI.</div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════ HYPERSONICS -->
+  <div class="section">
+    <div class="section-header hyp">⚡ Hypersonics &amp; Space Tracking</div>
+
+        <div class="card">
+      <div class="card-title">SciTec Tunes the Tracking Layer</div>
+      <div class="card-body">Firefly Aerospace said its SciTec subsidiary won an AFRL contract supporting <a href='https://investors.fireflyspace.com/news-releases/news-release-details/firefly-aerospace-subsidiary-scitec-awarded-afrl-contract' target='_blank'>advanced algorithm R&D and verification architecture</a> for global persistent awareness. The work emphasizes multispectral sensor-system research, deep-learning algorithms on size, weight, and power constrained processors, and improved target detection, tracking, and custody.</div>
+      <div class="wim">
+        <strong>Why It Matters</strong>
+        Missile warning is becoming as much a software and sensor-fusion competition as a satellite-count competition. If algorithms can maintain custody on dim or maneuvering targets at the edge, the U.S. gains decision time against hypersonic and other time-sensitive threats without waiting for every processing step to move through central ground infrastructure.
+      </div>
+      <a class="source-link" href="https://investors.fireflyspace.com/news-releases/news-release-details/firefly-aerospace-subsidiary-scitec-awarded-afrl-contract" target="_blank" rel="noopener"><svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/></svg> Firefly/SciTec: AFRL Advanced Algorithm R&D contract</a>
+    </div>
+    <div class="card">
+      <div class="card-title">Polar OPIR Sensor Reaches Integration</div>
+      <div class="card-body">Northrop Grumman delivered the prime sensor for the Space Force’s <a href='https://thedefensepost.com/2026/05/05/us-polar-missile-defense-satellite/' target='_blank'>Next Gen OPIR Polar</a> missile-warning satellite effort. The $4.15 billion two-satellite program is designed to improve northern-hemisphere warning and tracking by detecting faint heat signatures from ballistic and hypersonic threats.</div>
+      <div class="wim">
+        <strong>Why It Matters</strong>
+        Polar coverage is a persistent gap area for strategic warning because many high-latitude launch and flight profiles stress legacy architectures. Moving the prime sensor into the satellite integration flow turns Next Gen OPIR Polar from a paper architecture into deployable warning capacity for routes that adversaries would prefer to keep ambiguous.
+      </div>
+      <a class="source-link" href="https://thedefensepost.com/2026/05/05/us-polar-missile-defense-satellite/" target="_blank" rel="noopener"><svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/></svg> The Defense Post: U.S. polar missile-defense satellite</a>
+    </div>
+    <div class="card">
+      <div class="card-title">Lockheed Joins the SBI Layer</div>
+      <div class="card-body">Lockheed Martin was selected by Space Systems Command to develop <a href='https://militaryembedded.com/radar-ew/sensors/space-based-interceptor-capabilities-to-be-developed-for-us-space-force-by-lockheed-martin' target='_blank'>space-based interceptor capabilities</a> for the U.S. Space Force. The effort is aimed at an early-engagement missile-defense layer and draws on THAAD, PAC-3, Next Generation Interceptor, hypersonic strike, and missile-warning work, with an integrated demonstration planned by 2028.</div>
+      <div class="wim">
+        <strong>Why It Matters</strong>
+        Space-based interception remains technically and politically hard, but the program direction is clear: homeland missile defense is moving toward a layered architecture that couples sensing, fire control, and intercept earlier in the flight path. Lockheed’s entry widens the industrial base competing to prove whether this layer can transition from demonstration to credible operational architecture.
+      </div>
+      <a class="source-link" href="https://militaryembedded.com/radar-ew/sensors/space-based-interceptor-capabilities-to-be-developed-for-us-space-force-by-lockheed-martin" target="_blank" rel="noopener"><svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/></svg> Military Embedded Systems: Lockheed space-based interceptor capabilities</a>
+    </div>
+
+  </div>
+
+  <!-- ═══════════════════════════════════════════════ NUCLEAR -->
+  <div class="section">
+    <div class="section-header nuke">☢️ Strategic Nuclear Systems</div>
+
+        <div class="card">
+      <div class="card-title">NNSA Budget Climbs Again</div>
+      <div class="card-body">A detailed FY2027 budget analysis says the administration’s defense request would give the <a href='https://www.gtlaw.com/en/insights/2026/5/understanding-the-presidents-fy-2027-budget-request-for-the-department-of-war' target='_blank'>National Nuclear Security Administration $32.8 billion</a>, a 12% increase over FY2026 enacted appropriations. The same request includes broader nuclear-enterprise modernization, a Columbia-class ballistic-missile submarine, and continued B-21 development funding.</div>
+      <div class="wim">
+        <strong>Why It Matters</strong>
+        The nuclear enterprise is now competing inside a defense budget that is also demanding missile defense, AI, shipbuilding, and industrial-base expansion at scale. A double-digit NNSA increase signals that warhead sustainment and modernization remain protected priorities even as Congress scrutinizes the structure and affordability of the wider request.
+      </div>
+      <a class="source-link" href="https://www.gtlaw.com/en/insights/2026/5/understanding-the-presidents-fy-2027-budget-request-for-the-department-of-war" target="_blank" rel="noopener"><svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/></svg> Greenberg Traurig: FY2027 defense budget request</a>
+    </div>
+    <div class="card">
+      <div class="card-title">BWXT Locks In Reactor Work</div>
+      <div class="card-body">BWXT secured more than <a href='https://www.naval-technology.com/news/bwxt-us-navy-contract-nuclear/' target='_blank'>$1.4 billion in Naval Nuclear Propulsion Program contracts</a>. The package includes $1.29 billion for long-lead materials through the first of five annual task orders available through 2030 and $165 million for Ford-class carrier reactor-system components.</div>
+      <div class="wim">
+        <strong>Why It Matters</strong>
+        Strategic deterrence depends on the nuclear-propulsion industrial base as much as on missile and warhead accounts, particularly as Columbia-class and Virginia-class submarine production strains suppliers. Long-lead nuclear work gives the Navy and NNSA-adjacent industrial base schedule stability, reducing the risk that reactor-component bottlenecks cascade into submarine availability and recapitalization timelines.
+      </div>
+      <a class="source-link" href="https://www.naval-technology.com/news/bwxt-us-navy-contract-nuclear/" target="_blank" rel="noopener"><svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/></svg> Naval Technology: BWXT $1.4B naval nuclear propulsion contracts</a>
+    </div>
+    <div class="card">
+      <div class="card-title">Minot Focuses Sentinel Transition</div>
+      <div class="card-body">Task Force 21’s North Dakota Nuclear Triad Symposium gathered senior military leaders, policymakers, and local stakeholders in Minot to discuss <a href='https://minotchamberedc.com/news/task-force-21-nuclear-triad-symposium-brings-national-leaders-to-north-dakota-for-strategic-discussion/' target='_blank'>nuclear deterrence and modernization</a>. Speakers emphasized Minot Air Force Base’s unique role hosting two legs of the triad and described Sentinel ICBM modernization as a generational national-security imperative.</div>
+      <div class="wim">
+        <strong>Why It Matters</strong>
+        Sentinel’s execution risk is not only technical; it also runs through communities, construction logistics, command-and-control transition, and workforce readiness at missile bases. Minot’s sustained focus matters because it is a front-line installation where the aging Minuteman III force, B-52 operations, and the future ICBM recapitalization effort intersect.
+      </div>
+      <a class="source-link" href="https://minotchamberedc.com/news/task-force-21-nuclear-triad-symposium-brings-national-leaders-to-north-dakota-for-strategic-discussion/" target="_blank" rel="noopener"><svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/></svg> Minot Chamber EDC: Nuclear Triad Symposium</a>
+    </div>
+
+  </div>
+
+  <!-- ═══════════════════════════════════════════════ AI -->
+  <div class="section">
+    <div class="section-header ai">🤖 Artificial Intelligence</div>
+
+        <div class="card">
+      <div class="card-title">Compute Becomes the AI Bottleneck</div>
+      <div class="card-body">DefenseScoop reported that the Pentagon is preparing additional steps to address compute as a <a href='https://defensescoop.com/2026/05/07/dod-planning-to-address-compute-bottleneck-ai-proliferation/' target='_blank'>major bottleneck for military AI proliferation</a>. CDAO Cameron Stanley cited 13,000 targets in 38 days during Operation Epic Fury, a fourfold increase in network utilization, and 894 million tokens per day in agentic workflows.</div>
+      <div class="wim">
+        <strong>Why It Matters</strong>
+        The limiting factor for defense AI is shifting from model access to reliable classified compute, accreditation, and capacity across domains. If demand from operators outruns secure infrastructure, the Pentagon risks creating high-value AI pilots that cannot scale into routine battlefield decision support.
+      </div>
+      <a class="source-link" href="https://defensescoop.com/2026/05/07/dod-planning-to-address-compute-bottleneck-ai-proliferation/" target="_blank" rel="noopener"><svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/></svg> DefenseScoop: DOD AI compute bottleneck</a>
+    </div>
+    <div class="card">
+      <div class="card-title">Pentagon Sees Cyber Models as Defensive Leverage</div>
+      <div class="card-body">Breaking Defense reported that senior Pentagon technology leaders are optimistic that Mythos-style frontier models can improve <a href='https://breakingdefense.com/2026/05/top-pentagon-tech-officials-optimistic-mythos-style-ai-tools-will-improve-cyber-defense/' target='_blank'>cyber defense</a>. Cyber policy chief Katherine Sutton argued such models could help develop secure code, while CTO Emil Michael said they may find and patch vulnerabilities faster even as exploitation risk accelerates.</div>
+      <div class="wim">
+        <strong>Why It Matters</strong>
+        This frames frontier cyber capability as a race between automated exploitation and automated hardening, not simply as a safety-policy problem. Defense organizations that can safely integrate these tools into vulnerability discovery, remediation, and software assurance will compress patch timelines from weeks to minutes; those that cannot will be exposed at machine speed.
+      </div>
+      <a class="source-link" href="https://breakingdefense.com/2026/05/top-pentagon-tech-officials-optimistic-mythos-style-ai-tools-will-improve-cyber-defense/" target="_blank" rel="noopener"><svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/></svg> Breaking Defense: Pentagon officials on Mythos-style cyber AI</a>
+    </div>
+    <div class="card">
+      <div class="card-title">OpenAI Expands Trusted Cyber Access</div>
+      <div class="card-body">OpenAI announced <a href='https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/' target='_blank'>GPT-5.5-Cyber and expanded Trusted Access for Cyber</a> for verified defenders. The framework lowers refusals for authorized workflows such as vulnerability triage, malware analysis, detection engineering, and patch validation while retaining blocks on credential theft, stealth, persistence, malware deployment, and unauthorized exploitation.</div>
+      <div class="wim">
+        <strong>Why It Matters</strong>
+        Frontier-model providers are building access-control regimes that look more like controlled cyber ranges than general chat products. For national-security users and critical-infrastructure defenders, verified access could unlock higher-value defensive automation while giving providers a governance mechanism to limit harmful dual-use spillover.
+      </div>
+      <a class="source-link" href="https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/" target="_blank" rel="noopener"><svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/></svg> OpenAI: GPT-5.5 Trusted Access for Cyber</a>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    Compiled by Manus AI · Sources verified as of 07:00 EDT EDT · May 12, 2026
+  </div>
+
+</div>
+</body>
+</html>
