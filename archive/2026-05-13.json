@@ -1,0 +1,81 @@
+{
+  "id": "2026-05-13",
+  "date": "May 13, 2026",
+  "iso_date": "2026-05-13",
+  "time": "07:00 EDT",
+  "title": "Daily Intel Briefing — May 13, 2026",
+  "subtitle": "Nine signal items across hypersonics and space tracking, strategic nuclear systems, and artificial intelligence.",
+  "analyst_note": "Today’s indicators show the same pressure line across missile defense, nuclear deterrence, and AI-enabled operations: governments are trying to turn ambitious concepts into repeatable capacity. Hypersonics are moving into production and moving-target strike, nuclear actors are signaling under fewer treaty constraints, and cyber/defense AI is shifting from pilots into operational workflows.",
+  "read_time": "Under 3 minutes",
+  "sections": {
+    "hypersonics": [
+      {
+        "title": "Leidos Moves Hypersonics to Production",
+        "summary": "The U.S. Army awarded Leidos a <a href='https://thedefensepost.com/2026/05/13/us-leidos-hypersonic-weapons-production/amp/' target='_blank'>$2.7 billion production-focused hypersonics contract</a> covering the Thermal Protection Shield and Common Hypersonic Glide Body programs. The award is meant to move key elements from development toward manufacturing while stabilizing supply chains for guidance systems, sensors, and precision-strike integration.",
+        "why_it_matters": "This is a capacity signal, not just another prototype milestone. Hypersonic deterrence depends on whether the United States can build flight-worthy glide-body components at predictable cadence, and consolidating TPS and CHGB work under a production structure reduces a major transition risk between laboratory success and deployed inventory.",
+        "source_label": "The Defense Post: Leidos $2.7B hypersonic production contract",
+        "source_url": "https://thedefensepost.com/2026/05/13/us-leidos-hypersonic-weapons-production/amp/"
+      },
+      {
+        "title": "ARRW Recast as a Ship Killer",
+        "summary": "FY2027 Air Force budget documents point to an <a href='https://www.twz.com/air/new-version-of-bomber-launched-arrw-hypersonic-missile-is-a-ship-killer' target='_blank'>Increment 2 ARRW with a new seeker</a> intended for moving-target engagement. The War Zone reports the bomber-launched weapon would be especially relevant for maritime strike in a Pacific fight and could also threaten mobile land systems such as transporter-erector-launchers.",
+        "why_it_matters": "A seeker-equipped hypersonic weapon would shift ARRW from fixed-target strike toward time-sensitive anti-ship and mobile-missile hunting. That would complicate Chinese naval planning by extending bomber-launched threat rings and forcing high-value surface combatants to account for maneuvering hypersonic attack, not only ballistic and cruise-missile salvos.",
+        "source_label": "The War Zone: ARRW Increment 2 ship-killer seeker",
+        "source_url": "https://www.twz.com/air/new-version-of-bomber-launched-arrw-hypersonic-missile-is-a-ship-killer"
+      },
+      {
+        "title": "Golden Dome Price Tag Hits $1.2T",
+        "summary": "The Congressional Budget Office assessed a notional layered homeland missile-defense architecture with <a href='https://www.cbo.gov/publication/62422' target='_blank'>space-based tracking and intercept elements</a> at roughly $1.2 trillion over 20 years. CBO says the system could address ballistic, hypersonic, cruise-missile, and other aerial threats but could still be overwhelmed by full-scale peer salvos.",
+        "why_it_matters": "The estimate puts an affordability boundary around the ambition to move missile defense into space and earlier into the kill chain. It also clarifies the strategic trade: even trillion-dollar architectures may improve resilience against limited or regional attacks without creating a reliable shield against Russia- or China-scale nuclear barrages.",
+        "source_label": "CBO: Cost Estimate for National Missile Defense",
+        "source_url": "https://www.cbo.gov/publication/62422"
+      }
+    ],
+    "nuclear": [
+      {
+        "title": "Sarmat Returns to the Test Stand",
+        "summary": "Russia test-fired the nuclear-capable <a href='https://www.aljazeera.com/news/2026/5/13/putin-hails-russias-test-launch-of-most-powerful-missile-in-the-world' target='_blank'>Sarmat intercontinental ballistic missile</a>, and Vladimir Putin said it would enter combat service at the end of 2026. He claimed the missile can exceed 35,000 kilometers in range and penetrate existing and future missile-defense systems after years of program setbacks.",
+        "why_it_matters": "Sarmat is designed to refresh the heavy land-based leg of Russia’s nuclear force and preserve Moscow’s ability to threaten complex trajectories and large payloads. The timing matters because New START has expired, leaving the test and deployment claim to land in a strategic environment with fewer formal constraints and less transparency.",
+        "source_label": "Al Jazeera: Russia Sarmat test launch",
+        "source_url": "https://www.aljazeera.com/news/2026/5/13/putin-hails-russias-test-launch-of-most-powerful-missile-in-the-world"
+      },
+      {
+        "title": "SSBN Location Becomes a Signal",
+        "summary": "The U.S. Navy publicly showed an <a href='https://www.businessinsider.com/iran-war-submarine-nuclear-missiles-photo-2026-5' target='_blank'>Ohio-class ballistic-missile submarine in Gibraltar</a> amid Iran tensions. Business Insider notes such disclosures are rare because SSBN deterrence normally depends on stealth, secrecy, and the survivability of the undersea leg of the nuclear triad.",
+        "why_it_matters": "Publicly surfacing a nuclear-missile submarine location trades some operational ambiguity for strategic messaging. The move signals resolve to adversaries and reassurance to NATO allies, while underscoring how nuclear platforms are being used for crisis communication below the threshold of explicit nuclear threats.",
+        "source_label": "Business Insider: Rare Ohio-class submarine photo",
+        "source_url": "https://www.businessinsider.com/iran-war-submarine-nuclear-missiles-photo-2026-5"
+      },
+      {
+        "title": "Arms Control Searches for a Floor",
+        "summary": "Chatham House warned that New START’s expiry leaves Washington and Moscow without agreed <a href='https://www.chathamhouse.org/2026/05/avoiding-new-nuclear-arms-race' target='_blank'>strategic nuclear limits</a> for the first time in more than 50 years. Its paper recommends notification agreements, expert-level stability talks, and work in emerging technology domains before negotiating positions harden.",
+        "why_it_matters": "This is the policy counterpart to the hardware signals from Sarmat and SSBN deployments. Even if formal treaty replacement is unrealistic in the near term, behavioral guardrails and notification regimes can reduce miscalculation risk while the United States, Russia, and China move deeper into unconstrained modernization cycles.",
+        "source_label": "Chatham House: Avoiding a new nuclear arms race",
+        "source_url": "https://www.chathamhouse.org/2026/05/avoiding-new-nuclear-arms-race"
+      }
+    ],
+    "ai": [
+      {
+        "title": "CYBERCOM Asks for AI Surge",
+        "summary": "U.S. Cyber Command requested <a href='https://breakingdefense.com/2026/05/cybercom-requests-2660-percent-increase-in-ai-for-cyber-operations/' target='_blank'>$138 million for AI for Cyber Operations</a> in FY2027, a 2,660 percent increase from its FY2026 request. The money would scale specialized AI and machine-learning workflows across ISR, offensive cyber, defensive cyber, AI assurance, command and control, RAG, and agentic frameworks.",
+        "why_it_matters": "CYBERCOM is moving from isolated experimentation toward institutional AI workflows at multiple classification levels. The request also shows that cyber operations are being treated as a machine-speed contest in which data processing, targeting cycles, malware analysis, and operator training must all compress simultaneously.",
+        "source_label": "Breaking Defense: CYBERCOM AI budget increase",
+        "source_url": "https://breakingdefense.com/2026/05/cybercom-requests-2660-percent-increase-in-ai-for-cyber-operations/"
+      },
+      {
+        "title": "Maven Becomes Wartime Muscle Memory",
+        "summary": "Pentagon officials said Operation Epic Fury used Palantir’s <a href='https://breakingdefense.com/2026/05/insatiable-appetite-for-ai-maven-usage-surged-for-strikes-on-iran-pentagon-ai-chief-says/' target='_blank'>Maven Smart System</a> across 13,000 targets in 38 days. Breaking Defense reported classified usage rose 89 percent month-to-month and peak daily token use rose 4,425 percent to roughly 20 billion tokens.",
+        "why_it_matters": "Defense AI is no longer just a staff experiment; it is becoming an operational planning substrate for high-tempo campaigns. The constraint is now compute, accreditation, and error control: if human-machine teaming cannot scale safely, commanders may get faster workflows without correspondingly better decisions.",
+        "source_label": "Breaking Defense: Maven usage in Iran strikes",
+        "source_url": "https://breakingdefense.com/2026/05/insatiable-appetite-for-ai-maven-usage-surged-for-strikes-on-iran-pentagon-ai-chief-says/"
+      },
+      {
+        "title": "Daybreak Turns Cyber Defense Agentic",
+        "summary": "OpenAI introduced <a href='https://openai.com/daybreak/' target='_blank'>Daybreak</a> as a cybersecurity initiative combining frontier models, Codex as an agentic harness, and security partners. The system is aimed at secure code review, threat modeling, vulnerability discovery, patch generation and testing, dependency risk analysis, detection, remediation guidance, and audit-ready verification.",
+        "why_it_matters": "Daybreak packages frontier models around the defensive software lifecycle rather than treating cyber as a one-off chat interaction. For national-security and critical-infrastructure users, the important question is whether verified access and controlled agentic execution can accelerate remediation faster than comparable offensive model capabilities spread.",
+        "source_label": "OpenAI: Daybreak for cybersecurity",
+        "source_url": "https://openai.com/daybreak/"
+      }
+    ]
+  }
+}

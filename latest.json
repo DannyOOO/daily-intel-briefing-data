@@ -1,88 +1,97 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-05-12T11:29:10.017303Z",
+  "updated_at": "2026-05-13T11:10:29.092465Z",
   "edition": {
-    "id": "2026-05-12",
-    "date": "May 12, 2026",
-    "iso_date": "2026-05-12",
+    "id": "2026-05-13",
+    "date": "May 13, 2026",
+    "iso_date": "2026-05-13",
     "time": "07:00 EDT",
-    "title": "Daily Intel Briefing — May 12, 2026",
+    "title": "Daily Intel Briefing — May 13, 2026",
     "subtitle": "Nine signal items across hypersonics and space tracking, strategic nuclear systems, and artificial intelligence.",
-    "analyst_note": "Today’s indicators point to the same strategic pattern across all three portfolios: sensing, compute, and industrial capacity are becoming decisive constraints. Missile defense is pushing earlier in the kill chain, nuclear modernization is fighting infrastructure and supplier risk, and defense AI is shifting from model access to secure operational scale.",
+    "analyst_note": "Today’s indicators show the same pressure line across missile defense, nuclear deterrence, and AI-enabled operations: governments are trying to turn ambitious concepts into repeatable capacity. Hypersonics are moving into production and moving-target strike, nuclear actors are signaling under fewer treaty constraints, and cyber/defense AI is shifting from pilots into operational workflows.",
     "read_time": "Under 3 minutes",
     "sections": {
       "hypersonics": [
         {
-          "title": "SciTec Tunes the Tracking Layer",
-          "summary": "Firefly Aerospace said its SciTec subsidiary won an AFRL contract supporting <a href='https://investors.fireflyspace.com/news-releases/news-release-details/firefly-aerospace-subsidiary-scitec-awarded-afrl-contract' target='_blank'>advanced algorithm R&D and verification architecture</a> for global persistent awareness. The work emphasizes multispectral sensor-system research, deep-learning algorithms on size, weight, and power constrained processors, and improved target detection, tracking, and custody.",
-          "why_it_matters": "Missile warning is becoming as much a software and sensor-fusion competition as a satellite-count competition. If algorithms can maintain custody on dim or maneuvering targets at the edge, the U.S. gains decision time against hypersonic and other time-sensitive threats without waiting for every processing step to move through central ground infrastructure.",
-          "source_label": "Firefly/SciTec: AFRL Advanced Algorithm R&D contract",
-          "source_url": "https://investors.fireflyspace.com/news-releases/news-release-details/firefly-aerospace-subsidiary-scitec-awarded-afrl-contract"
+          "title": "Leidos Moves Hypersonics to Production",
+          "summary": "The U.S. Army awarded Leidos a <a href='https://thedefensepost.com/2026/05/13/us-leidos-hypersonic-weapons-production/amp/' target='_blank'>$2.7 billion production-focused hypersonics contract</a> covering the Thermal Protection Shield and Common Hypersonic Glide Body programs. The award is meant to move key elements from development toward manufacturing while stabilizing supply chains for guidance systems, sensors, and precision-strike integration.",
+          "why_it_matters": "This is a capacity signal, not just another prototype milestone. Hypersonic deterrence depends on whether the United States can build flight-worthy glide-body components at predictable cadence, and consolidating TPS and CHGB work under a production structure reduces a major transition risk between laboratory success and deployed inventory.",
+          "source_label": "The Defense Post: Leidos $2.7B hypersonic production contract",
+          "source_url": "https://thedefensepost.com/2026/05/13/us-leidos-hypersonic-weapons-production/amp/"
         },
         {
-          "title": "Polar OPIR Sensor Reaches Integration",
-          "summary": "Northrop Grumman delivered the prime sensor for the Space Force’s <a href='https://thedefensepost.com/2026/05/05/us-polar-missile-defense-satellite/' target='_blank'>Next Gen OPIR Polar</a> missile-warning satellite effort. The $4.15 billion two-satellite program is designed to improve northern-hemisphere warning and tracking by detecting faint heat signatures from ballistic and hypersonic threats.",
-          "why_it_matters": "Polar coverage is a persistent gap area for strategic warning because many high-latitude launch and flight profiles stress legacy architectures. Moving the prime sensor into the satellite integration flow turns Next Gen OPIR Polar from a paper architecture into deployable warning capacity for routes that adversaries would prefer to keep ambiguous.",
-          "source_label": "The Defense Post: U.S. polar missile-defense satellite",
-          "source_url": "https://thedefensepost.com/2026/05/05/us-polar-missile-defense-satellite/"
+          "title": "ARRW Recast as a Ship Killer",
+          "summary": "FY2027 Air Force budget documents point to an <a href='https://www.twz.com/air/new-version-of-bomber-launched-arrw-hypersonic-missile-is-a-ship-killer' target='_blank'>Increment 2 ARRW with a new seeker</a> intended for moving-target engagement. The War Zone reports the bomber-launched weapon would be especially relevant for maritime strike in a Pacific fight and could also threaten mobile land systems such as transporter-erector-launchers.",
+          "why_it_matters": "A seeker-equipped hypersonic weapon would shift ARRW from fixed-target strike toward time-sensitive anti-ship and mobile-missile hunting. That would complicate Chinese naval planning by extending bomber-launched threat rings and forcing high-value surface combatants to account for maneuvering hypersonic attack, not only ballistic and cruise-missile salvos.",
+          "source_label": "The War Zone: ARRW Increment 2 ship-killer seeker",
+          "source_url": "https://www.twz.com/air/new-version-of-bomber-launched-arrw-hypersonic-missile-is-a-ship-killer"
         },
         {
-          "title": "Lockheed Joins the SBI Layer",
-          "summary": "Lockheed Martin was selected by Space Systems Command to develop <a href='https://militaryembedded.com/radar-ew/sensors/space-based-interceptor-capabilities-to-be-developed-for-us-space-force-by-lockheed-martin' target='_blank'>space-based interceptor capabilities</a> for the U.S. Space Force. The effort is aimed at an early-engagement missile-defense layer and draws on THAAD, PAC-3, Next Generation Interceptor, hypersonic strike, and missile-warning work, with an integrated demonstration planned by 2028.",
-          "why_it_matters": "Space-based interception remains technically and politically hard, but the program direction is clear: homeland missile defense is moving toward a layered architecture that couples sensing, fire control, and intercept earlier in the flight path. Lockheed’s entry widens the industrial base competing to prove whether this layer can transition from demonstration to credible operational architecture.",
-          "source_label": "Military Embedded Systems: Lockheed space-based interceptor capabilities",
-          "source_url": "https://militaryembedded.com/radar-ew/sensors/space-based-interceptor-capabilities-to-be-developed-for-us-space-force-by-lockheed-martin"
+          "title": "Golden Dome Price Tag Hits $1.2T",
+          "summary": "The Congressional Budget Office assessed a notional layered homeland missile-defense architecture with <a href='https://www.cbo.gov/publication/62422' target='_blank'>space-based tracking and intercept elements</a> at roughly $1.2 trillion over 20 years. CBO says the system could address ballistic, hypersonic, cruise-missile, and other aerial threats but could still be overwhelmed by full-scale peer salvos.",
+          "why_it_matters": "The estimate puts an affordability boundary around the ambition to move missile defense into space and earlier into the kill chain. It also clarifies the strategic trade: even trillion-dollar architectures may improve resilience against limited or regional attacks without creating a reliable shield against Russia- or China-scale nuclear barrages.",
+          "source_label": "CBO: Cost Estimate for National Missile Defense",
+          "source_url": "https://www.cbo.gov/publication/62422"
         }
       ],
       "nuclear": [
         {
-          "title": "NNSA Budget Climbs Again",
-          "summary": "A detailed FY2027 budget analysis says the administration’s defense request would give the <a href='https://www.gtlaw.com/en/insights/2026/5/understanding-the-presidents-fy-2027-budget-request-for-the-department-of-war' target='_blank'>National Nuclear Security Administration $32.8 billion</a>, a 12% increase over FY2026 enacted appropriations. The same request includes broader nuclear-enterprise modernization, a Columbia-class ballistic-missile submarine, and continued B-21 development funding.",
-          "why_it_matters": "The nuclear enterprise is now competing inside a defense budget that is also demanding missile defense, AI, shipbuilding, and industrial-base expansion at scale. A double-digit NNSA increase signals that warhead sustainment and modernization remain protected priorities even as Congress scrutinizes the structure and affordability of the wider request.",
-          "source_label": "Greenberg Traurig: FY2027 defense budget request",
-          "source_url": "https://www.gtlaw.com/en/insights/2026/5/understanding-the-presidents-fy-2027-budget-request-for-the-department-of-war"
+          "title": "Sarmat Returns to the Test Stand",
+          "summary": "Russia test-fired the nuclear-capable <a href='https://www.aljazeera.com/news/2026/5/13/putin-hails-russias-test-launch-of-most-powerful-missile-in-the-world' target='_blank'>Sarmat intercontinental ballistic missile</a>, and Vladimir Putin said it would enter combat service at the end of 2026. He claimed the missile can exceed 35,000 kilometers in range and penetrate existing and future missile-defense systems after years of program setbacks.",
+          "why_it_matters": "Sarmat is designed to refresh the heavy land-based leg of Russia’s nuclear force and preserve Moscow’s ability to threaten complex trajectories and large payloads. The timing matters because New START has expired, leaving the test and deployment claim to land in a strategic environment with fewer formal constraints and less transparency.",
+          "source_label": "Al Jazeera: Russia Sarmat test launch",
+          "source_url": "https://www.aljazeera.com/news/2026/5/13/putin-hails-russias-test-launch-of-most-powerful-missile-in-the-world"
         },
         {
-          "title": "BWXT Locks In Reactor Work",
-          "summary": "BWXT secured more than <a href='https://www.naval-technology.com/news/bwxt-us-navy-contract-nuclear/' target='_blank'>$1.4 billion in Naval Nuclear Propulsion Program contracts</a>. The package includes $1.29 billion for long-lead materials through the first of five annual task orders available through 2030 and $165 million for Ford-class carrier reactor-system components.",
-          "why_it_matters": "Strategic deterrence depends on the nuclear-propulsion industrial base as much as on missile and warhead accounts, particularly as Columbia-class and Virginia-class submarine production strains suppliers. Long-lead nuclear work gives the Navy and NNSA-adjacent industrial base schedule stability, reducing the risk that reactor-component bottlenecks cascade into submarine availability and recapitalization timelines.",
-          "source_label": "Naval Technology: BWXT $1.4B naval nuclear propulsion contracts",
-          "source_url": "https://www.naval-technology.com/news/bwxt-us-navy-contract-nuclear/"
+          "title": "SSBN Location Becomes a Signal",
+          "summary": "The U.S. Navy publicly showed an <a href='https://www.businessinsider.com/iran-war-submarine-nuclear-missiles-photo-2026-5' target='_blank'>Ohio-class ballistic-missile submarine in Gibraltar</a> amid Iran tensions. Business Insider notes such disclosures are rare because SSBN deterrence normally depends on stealth, secrecy, and the survivability of the undersea leg of the nuclear triad.",
+          "why_it_matters": "Publicly surfacing a nuclear-missile submarine location trades some operational ambiguity for strategic messaging. The move signals resolve to adversaries and reassurance to NATO allies, while underscoring how nuclear platforms are being used for crisis communication below the threshold of explicit nuclear threats.",
+          "source_label": "Business Insider: Rare Ohio-class submarine photo",
+          "source_url": "https://www.businessinsider.com/iran-war-submarine-nuclear-missiles-photo-2026-5"
         },
         {
-          "title": "Minot Focuses Sentinel Transition",
-          "summary": "Task Force 21’s North Dakota Nuclear Triad Symposium gathered senior military leaders, policymakers, and local stakeholders in Minot to discuss <a href='https://minotchamberedc.com/news/task-force-21-nuclear-triad-symposium-brings-national-leaders-to-north-dakota-for-strategic-discussion/' target='_blank'>nuclear deterrence and modernization</a>. Speakers emphasized Minot Air Force Base’s unique role hosting two legs of the triad and described Sentinel ICBM modernization as a generational national-security imperative.",
-          "why_it_matters": "Sentinel’s execution risk is not only technical; it also runs through communities, construction logistics, command-and-control transition, and workforce readiness at missile bases. Minot’s sustained focus matters because it is a front-line installation where the aging Minuteman III force, B-52 operations, and the future ICBM recapitalization effort intersect.",
-          "source_label": "Minot Chamber EDC: Nuclear Triad Symposium",
-          "source_url": "https://minotchamberedc.com/news/task-force-21-nuclear-triad-symposium-brings-national-leaders-to-north-dakota-for-strategic-discussion/"
+          "title": "Arms Control Searches for a Floor",
+          "summary": "Chatham House warned that New START’s expiry leaves Washington and Moscow without agreed <a href='https://www.chathamhouse.org/2026/05/avoiding-new-nuclear-arms-race' target='_blank'>strategic nuclear limits</a> for the first time in more than 50 years. Its paper recommends notification agreements, expert-level stability talks, and work in emerging technology domains before negotiating positions harden.",
+          "why_it_matters": "This is the policy counterpart to the hardware signals from Sarmat and SSBN deployments. Even if formal treaty replacement is unrealistic in the near term, behavioral guardrails and notification regimes can reduce miscalculation risk while the United States, Russia, and China move deeper into unconstrained modernization cycles.",
+          "source_label": "Chatham House: Avoiding a new nuclear arms race",
+          "source_url": "https://www.chathamhouse.org/2026/05/avoiding-new-nuclear-arms-race"
         }
       ],
       "ai": [
         {
-          "title": "Compute Becomes the AI Bottleneck",
-          "summary": "DefenseScoop reported that the Pentagon is preparing additional steps to address compute as a <a href='https://defensescoop.com/2026/05/07/dod-planning-to-address-compute-bottleneck-ai-proliferation/' target='_blank'>major bottleneck for military AI proliferation</a>. CDAO Cameron Stanley cited 13,000 targets in 38 days during Operation Epic Fury, a fourfold increase in network utilization, and 894 million tokens per day in agentic workflows.",
-          "why_it_matters": "The limiting factor for defense AI is shifting from model access to reliable classified compute, accreditation, and capacity across domains. If demand from operators outruns secure infrastructure, the Pentagon risks creating high-value AI pilots that cannot scale into routine battlefield decision support.",
-          "source_label": "DefenseScoop: DOD AI compute bottleneck",
-          "source_url": "https://defensescoop.com/2026/05/07/dod-planning-to-address-compute-bottleneck-ai-proliferation/"
+          "title": "CYBERCOM Asks for AI Surge",
+          "summary": "U.S. Cyber Command requested <a href='https://breakingdefense.com/2026/05/cybercom-requests-2660-percent-increase-in-ai-for-cyber-operations/' target='_blank'>$138 million for AI for Cyber Operations</a> in FY2027, a 2,660 percent increase from its FY2026 request. The money would scale specialized AI and machine-learning workflows across ISR, offensive cyber, defensive cyber, AI assurance, command and control, RAG, and agentic frameworks.",
+          "why_it_matters": "CYBERCOM is moving from isolated experimentation toward institutional AI workflows at multiple classification levels. The request also shows that cyber operations are being treated as a machine-speed contest in which data processing, targeting cycles, malware analysis, and operator training must all compress simultaneously.",
+          "source_label": "Breaking Defense: CYBERCOM AI budget increase",
+          "source_url": "https://breakingdefense.com/2026/05/cybercom-requests-2660-percent-increase-in-ai-for-cyber-operations/"
         },
         {
-          "title": "Pentagon Sees Cyber Models as Defensive Leverage",
-          "summary": "Breaking Defense reported that senior Pentagon technology leaders are optimistic that Mythos-style frontier models can improve <a href='https://breakingdefense.com/2026/05/top-pentagon-tech-officials-optimistic-mythos-style-ai-tools-will-improve-cyber-defense/' target='_blank'>cyber defense</a>. Cyber policy chief Katherine Sutton argued such models could help develop secure code, while CTO Emil Michael said they may find and patch vulnerabilities faster even as exploitation risk accelerates.",
-          "why_it_matters": "This frames frontier cyber capability as a race between automated exploitation and automated hardening, not simply as a safety-policy problem. Defense organizations that can safely integrate these tools into vulnerability discovery, remediation, and software assurance will compress patch timelines from weeks to minutes; those that cannot will be exposed at machine speed.",
-          "source_label": "Breaking Defense: Pentagon officials on Mythos-style cyber AI",
-          "source_url": "https://breakingdefense.com/2026/05/top-pentagon-tech-officials-optimistic-mythos-style-ai-tools-will-improve-cyber-defense/"
+          "title": "Maven Becomes Wartime Muscle Memory",
+          "summary": "Pentagon officials said Operation Epic Fury used Palantir’s <a href='https://breakingdefense.com/2026/05/insatiable-appetite-for-ai-maven-usage-surged-for-strikes-on-iran-pentagon-ai-chief-says/' target='_blank'>Maven Smart System</a> across 13,000 targets in 38 days. Breaking Defense reported classified usage rose 89 percent month-to-month and peak daily token use rose 4,425 percent to roughly 20 billion tokens.",
+          "why_it_matters": "Defense AI is no longer just a staff experiment; it is becoming an operational planning substrate for high-tempo campaigns. The constraint is now compute, accreditation, and error control: if human-machine teaming cannot scale safely, commanders may get faster workflows without correspondingly better decisions.",
+          "source_label": "Breaking Defense: Maven usage in Iran strikes",
+          "source_url": "https://breakingdefense.com/2026/05/insatiable-appetite-for-ai-maven-usage-surged-for-strikes-on-iran-pentagon-ai-chief-says/"
         },
         {
-          "title": "OpenAI Expands Trusted Cyber Access",
-          "summary": "OpenAI announced <a href='https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/' target='_blank'>GPT-5.5-Cyber and expanded Trusted Access for Cyber</a> for verified defenders. The framework lowers refusals for authorized workflows such as vulnerability triage, malware analysis, detection engineering, and patch validation while retaining blocks on credential theft, stealth, persistence, malware deployment, and unauthorized exploitation.",
-          "why_it_matters": "Frontier-model providers are building access-control regimes that look more like controlled cyber ranges than general chat products. For national-security users and critical-infrastructure defenders, verified access could unlock higher-value defensive automation while giving providers a governance mechanism to limit harmful dual-use spillover.",
-          "source_label": "OpenAI: GPT-5.5 Trusted Access for Cyber",
-          "source_url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/"
+          "title": "Daybreak Turns Cyber Defense Agentic",
+          "summary": "OpenAI introduced <a href='https://openai.com/daybreak/' target='_blank'>Daybreak</a> as a cybersecurity initiative combining frontier models, Codex as an agentic harness, and security partners. The system is aimed at secure code review, threat modeling, vulnerability discovery, patch generation and testing, dependency risk analysis, detection, remediation guidance, and audit-ready verification.",
+          "why_it_matters": "Daybreak packages frontier models around the defensive software lifecycle rather than treating cyber as a one-off chat interaction. For national-security and critical-infrastructure users, the important question is whether verified access and controlled agentic execution can accelerate remediation faster than comparable offensive model capabilities spread.",
+          "source_label": "OpenAI: Daybreak for cybersecurity",
+          "source_url": "https://openai.com/daybreak/"
         }
       ]
     }
   },
   "archive": [
+    {
+      "id": "2026-05-13",
+      "date": "May 13, 2026",
+      "iso_date": "2026-05-13",
+      "title": "Daily Intel Briefing — May 13, 2026",
+      "summary": "Leidos Moves Hypersonics to Production, ARRW Recast as a Ship Killer, Golden Dome Price Tag Hits $1.2T, Sarmat Returns to the Test Stand, SSBN Location Becomes a Signal, Arms Control Searches for a Floor, CYBERCOM Asks for AI Surge, Maven Becomes Wartime Muscle Memory, and Daybreak Turns Cyber Defense Agentic.",
+      "url": "archive/2026-05-13.json",
+      "item_count": 9
+    },
     {
       "id": "2026-05-12",
       "date": "May 12, 2026",
