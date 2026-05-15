@@ -1,88 +1,97 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-05-14T11:11:39.151146Z",
+  "updated_at": "2026-05-15T11:14:40.132889Z",
   "edition": {
-    "id": "2026-05-14",
-    "date": "May 14, 2026",
-    "iso_date": "2026-05-14",
+    "id": "2026-05-15",
+    "date": "May 15, 2026",
+    "iso_date": "2026-05-15",
     "time": "07:00 EDT",
-    "title": "Daily Intel Briefing — May 14, 2026",
+    "title": "Daily Intel Briefing — May 15, 2026",
     "subtitle": "Nine signal items across hypersonics and space tracking, strategic nuclear systems, and artificial intelligence.",
-    "analyst_note": "Today’s through-line is instrumentation: the race is less about single spectacular platforms and more about the test ranges, telemetry, budget lines, verification channels, and training pipelines that make advanced capabilities repeatable. Hypersonics are being pulled into live-fire intercept and range capacity, nuclear modernization is being reinforced by infrastructure and post-treaty guardrails, and AI security is shifting from model novelty into operational adoption and adversary adaptation.",
+    "analyst_note": "Today’s through-line is strategic tempo. Hypersonics are being constrained less by physics breakthroughs than by test infrastructure, sensor custody, and portfolio discipline; nuclear policy is being pulled between two-peer deterrence, Iran crisis bargaining, and NPT legitimacy; and AI is moving from lab capability into escalation advice, defense workflows, and cyber-remediation pressure.",
     "read_time": "Under 3 minutes",
     "sections": {
       "hypersonics": [
         {
-          "title": "Maverick Aims at the Glide-Phase Gap",
-          "summary": "The Missile Defense Agency plans a fiscal 2027 <a href='https://www.airandspaceforces.com/missile-defense-agency-counter-hypersonic-test-2027/' target='_blank'>Project Maverick demonstration</a> to track and engage a hypersonic glide vehicle flying up the U.S. East Coast. The test will use elevated multi-phenomenology sensors, a tactical battle manager, and engage-on-remote architecture while the Glide Phase Interceptor remains a 2031-era capability.",
-          "why_it_matters": "This is a bridge between today’s regional missile defenses and a purpose-built counter-hypersonic interceptor. If Maverick works, MDA gains a near-term path to an interim kill chain that can fuse remote sensing and fire-control data fast enough for maneuvering hypersonic threats.",
-          "source_label": "Air & Space Forces: Project Maverick counter-hypersonic test",
-          "source_url": "https://www.airandspaceforces.com/missile-defense-agency-counter-hypersonic-test-2027/"
+          "title": "Hypersonic Budget Line Tightens",
+          "summary": "A new CRS-derived <a href='https://www.eurasiareview.com/15052026-defense-primer-hypersonic-boost-glide-weapons-analysis/' target='_blank'>defense primer on hypersonic boost-glide weapons</a> says DoD requested $3.9 billion for hypersonic weapons in FY2026, down from $6.9 billion in FY2025, while not providing a comparable FY2027 topline. The primer frames boost-glide systems as maneuvering weapons that complicate warning, tracking, and interception after launch.",
+          "why_it_matters": "The funding drop does not mean hypersonics are leaving the modernization agenda; it means the portfolio is entering a more selective phase. Program managers will have to show which test infrastructure, glide bodies, and transition paths deserve scarce dollars as prototypes compete with missile defense and munitions-scale priorities.",
+          "source_label": "Eurasia Review: Defense Primer — Hypersonic Boost-Glide Weapons",
+          "source_url": "https://www.eurasiareview.com/15052026-defense-primer-hypersonic-boost-glide-weapons-analysis/"
         },
         {
-          "title": "SkyRange Gets Better Hypersonic Ears",
-          "summary": "AeroVironment won a <a href='https://thedefensepost.com/2026/05/13/pentagon-skyrange-receivers/' target='_blank'>$43 million contract</a> to add PANTHER phased-array receivers to the Pentagon’s SkyRange platforms. The upgraded Range Hawks are intended to capture, monitor, and analyze telemetry from multiple Mach 5-plus projectiles during complex hypersonic missile tests.",
-          "why_it_matters": "Hypersonic progress is bottlenecked by how often the United States can fly, instrument, and learn from realistic tests. Better airborne telemetry turns converted Global Hawks into reusable range assets, reducing test friction and improving the quality of data that feeds design decisions.",
-          "source_label": "The Defense Post: AeroVironment SkyRange receiver contract",
-          "source_url": "https://thedefensepost.com/2026/05/13/pentagon-skyrange-receivers/"
+          "title": "OPIR Payload Completes Sensor Pair",
+          "summary": "Raytheon delivered a second <a href='https://www.defence-industry.eu/raytheon-delivers-second-missile-warning-sensor-for-u-s-space-forces-next-generation-opir-satellite-program/' target='_blank'>missile-warning sensor</a> to Lockheed Martin for the Space Force Next-Generation OPIR GEO Block 0 satellite program. The sensors are designed to detect heat signatures from missile launches, including hypersonic weapons, and will complement low- and medium-orbit tracking layers.",
+          "why_it_matters": "Hypersonic defense depends on persistent custody, not a single exquisite sensor. Completing the second GEO payload strengthens the high-altitude warning layer while the U.S. builds a more distributed tracking architecture across orbital regimes.",
+          "source_label": "Defence Industry Europe: Raytheon delivers Next-Gen OPIR sensor",
+          "source_url": "https://www.defence-industry.eu/raytheon-delivers-second-missile-warning-sensor-for-u-s-space-forces-next-generation-opir-satellite-program/"
         },
         {
-          "title": "Kratos Adds a Materials Test Node",
-          "summary": "Kratos selected Odon, Indiana, for a new <a href='https://finance.yahoo.com/news/kratos-expands-hypersonics-space-footprint-121753897.html' target='_blank'>Project Helios hypersonic materials test facility</a>. The facility is aimed at supporting hypersonic weapons and materials testing, while the company also highlighted Space Force ground-network momentum for a medium Earth orbit constellation.",
-          "why_it_matters": "The limiting factor for hypersonic weapons is often thermal survivability, not only propulsion or guidance. More domestic materials-test capacity helps validate heat-resistant structures and coatings before expensive flight tests, which is essential for scaling from prototypes to fielded systems.",
-          "source_label": "Yahoo Finance: Kratos Project Helios facility",
-          "source_url": "https://finance.yahoo.com/news/kratos-expands-hypersonics-space-footprint-121753897.html"
+          "title": "Test Bottleneck Gets Commercial Attention",
+          "summary": "A GlobeNewswire market brief argues the <a href='https://www.globenewswire.com/news-release/2026/05/14/3295155/0/en/The-Hypersonic-Test-Bottleneck-Is-Real-And-Five-Companies-Are-Building-the-Infrastructure-to-Fix-It.html' target='_blank'>hypersonic test bottleneck</a> is becoming a distinct infrastructure problem, citing firms building airborne test beds, range services, and supporting technologies. The brief highlights Starfighters Space’s F-104 fleet, announced April 30, as one candidate airborne aerodynamic test platform for defense hypersonic work.",
+          "why_it_matters": "Flight-test scarcity is one of the quiet constraints on hypersonic progress. If commercial range and airborne-test capacity matures, it could reduce dependence on a small number of national test corridors and accelerate iteration between ground tests and full-up weapon flights.",
+          "source_label": "GlobeNewswire: Hypersonic test bottleneck infrastructure",
+          "source_url": "https://www.globenewswire.com/news-release/2026/05/14/3295155/0/en/The-Hypersonic-Test-Bottleneck-Is-Real-And-Five-Companies-Are-Building-the-Infrastructure-to-Fix-It.html"
         }
       ],
       "nuclear": [
         {
-          "title": "NNSA Budget Hardens the Modernization Base",
-          "summary": "Senate testimony from Energy Secretary Christopher Wright and NNSA Administrator Brandon Williams says the FY2027 request includes <a href='https://www.armed-services.senate.gov/imo/media/doc/wright_opening_statement.pdf' target='_blank'>$32.80 billion for NNSA</a>. Of that, $27.44 billion is for maintaining the nuclear stockpile, modernizing warheads and production facilities, improving scientific tools, and renewing weapons-lab infrastructure.",
-          "why_it_matters": "The modernization debate is moving from whether to recapitalize the triad to whether the supporting nuclear enterprise can execute on time. Funding laboratories, production plants, naval reactors, and nonproliferation together shows that deterrence capacity now depends on industrial throughput as much as deployed launchers.",
-          "source_label": "Senate Armed Services Committee: DOE/NNSA FY2027 testimony",
-          "source_url": "https://www.armed-services.senate.gov/imo/media/doc/wright_opening_statement.pdf"
+          "title": "Two-Peer Nuclear Strategy Splits",
+          "summary": "War on the Rocks published a new argument for a <a href='https://warontherocks.com/restrain-and-hedge-a-new-u-s-nuclear-strategy-for-a-two-peer-world/' target='_blank'>restrain-and-hedge nuclear strategy</a> as the United States faces simultaneous Russian and Chinese nuclear competition. The piece warns that simply uploading more deployed warheads could provide marginal deterrent benefit while fueling a trilateral arms race.",
+          "why_it_matters": "This is the core strategic choice after New START: expand fast, restrain visibly, or hedge industrially while seeking new limits. The article’s emphasis on production capacity and refurbishment highlights that nuclear posture is increasingly constrained by the health of the weapons enterprise, not only by declaratory policy.",
+          "source_label": "War on the Rocks: Restrain and Hedge",
+          "source_url": "https://warontherocks.com/restrain-and-hedge-a-new-u-s-nuclear-strategy-for-a-two-peer-world/"
         },
         {
-          "title": "Pantex Replaces 15 Legacy Facilities",
-          "summary": "DOE/NNSA completed Pantex Plant’s <a href='https://www.energy.gov/nnsa/articles/nnsa-completes-new-facility-strengthen-nuclear-security-and-modernize-weapons' target='_blank'>High Explosives Science and Engineering facility</a>, consolidating work previously spread across 15 World War II-era buildings. The new site supports high-explosives science, engineering, technology development, weapons maintenance, surveillance, and future modernization and production requirements.",
-          "why_it_matters": "Pantex is central to nuclear weapons assembly, dismantlement, and maintenance, so infrastructure age directly affects deterrent credibility. Consolidating high-explosives work into modern space reduces operational drag and helps the stockpile enterprise handle simultaneous surveillance, life-extension, and production demands.",
-          "source_label": "DOE/NNSA: Pantex HESE facility completion",
-          "source_url": "https://www.energy.gov/nnsa/articles/nnsa-completes-new-facility-strengthen-nuclear-security-and-modernize-weapons"
+          "title": "Iran Nuclear Consensus Stalls",
+          "summary": "Al Jazeera reports that the Trump-Xi summit produced little evidence of an agreement to end the Iran war, even as Washington said both countries agreed that <a href='https://www.aljazeera.com/news/2026/5/15/how-xi-trump-summit-failed-to-yield-iran-war-breakthrough' target='_blank'>Iran should never have a nuclear weapon</a>. China’s public statement instead emphasized ceasefire efforts, political settlement, and accommodation of all parties’ concerns on the Iranian nuclear issue.",
+          "why_it_matters": "The nuclear-proliferation problem is now tied directly to great-power crisis bargaining and energy security. If Washington and Beijing cannot align on Iran while the Strait of Hormuz remains disrupted, coercive nonproliferation risks drifting into a wider strategic and economic confrontation.",
+          "source_label": "Al Jazeera: Xi-Trump summit and Iran war",
+          "source_url": "https://www.aljazeera.com/news/2026/5/15/how-xi-trump-summit-failed-to-yield-iran-war-breakthrough"
         },
         {
-          "title": "Post-New START Guardrails Look Thin",
-          "summary": "Chatham House warned that New START’s February 2026 expiry leaves Washington and Moscow without <a href='https://www.chathamhouse.org/2026/05/avoiding-new-nuclear-arms-race/why-relationships-between-nuclear-armed-states-are-breaking' target='_blank'>agreed strategic nuclear limits</a> for the first time in more than 50 years. It argues that a one-year moratorium could help at the 2026 NPT Review Conference, but durable risk reduction needs data-exchange expertise, confidence-building measures, and technical dialogue on emerging technology, space, and cyber.",
-          "why_it_matters": "Modernization is accelerating in a weaker treaty environment, increasing the odds that technical signals will be misread as strategic intent. Even modest verification and notification habits can preserve institutional muscle memory while formal arms-control treaties remain politically out of reach.",
-          "source_label": "Chatham House: Avoiding a new nuclear arms race",
-          "source_url": "https://www.chathamhouse.org/2026/05/avoiding-new-nuclear-arms-race/why-relationships-between-nuclear-armed-states-are-breaking"
+          "title": "NPT Review Enters Disorder",
+          "summary": "The Diplomat says the 2026 <a href='https://thediplomat.com/2026/05/can-the-npt-survive-amid-global-disorder/' target='_blank'>NPT Review Conference</a> is unfolding amid regional conflict, lapsed arms-control agreements, and nuclear-weapon states expanding or modernizing arsenals. It identifies Iran, great-power nuclear competition, extended-deterrence anxiety, Russia’s war against Ukraine, and fuel-cycle spread as five major stress points.",
+          "why_it_matters": "The nonproliferation regime is being asked to absorb too many shocks at once. Even if a consensus final document fails, the practical issue is whether states can preserve norms against new nuclear weapons and rebuild transparency habits before arms-race dynamics become self-reinforcing.",
+          "source_label": "The Diplomat: Can the NPT Survive?",
+          "source_url": "https://thediplomat.com/2026/05/can-the-npt-survive-amid-global-disorder/"
         }
       ],
       "ai": [
         {
-          "title": "AISI Sees Cyber Time Horizons Compress",
-          "summary": "The UK AI Security Institute reported that frontier models’ autonomous cyber-task capability has been <a href='https://www.aisi.gov.uk/blog/how-fast-is-autonomous-ai-cyber-capability-advancing' target='_blank'>doubling every few months</a> in its narrow cyber suite. Its February estimate put the 80%-reliability cyber time-horizon doubling at 4.7 months since late 2024, and Claude Mythos Preview plus GPT-5.5 substantially exceeded prior trends.",
-          "why_it_matters": "Autonomous cyber capability is becoming a pacing metric for both defenders and attackers. If task horizons continue to expand this quickly, organizations will need faster patching, monitoring, and validation cycles before AI-enabled reconnaissance and exploitation become routine at larger scale.",
-          "source_label": "UK AISI: Autonomous AI cyber capability",
-          "source_url": "https://www.aisi.gov.uk/blog/how-fast-is-autonomous-ai-cyber-capability-advancing"
+          "title": "AI Escalation Benchmarks Bite",
+          "summary": "CSIS warns that national-security use of AI needs common crisis benchmarks after tests showed some models displaying <a href='https://www.csis.org/analysis/ai-escalation-danger-trump-and-xi-must-address' target='_blank'>escalatory tendencies</a> in foreign-policy scenarios. The analysis cites 66,473 benchmark data points and says DeepSeek recommended nuclear use in crisis scenarios more than 10 percent of the time in a follow-on study.",
+          "why_it_matters": "The risk is not that AI will launch weapons autonomously tomorrow; it is that advisory systems will frame escalation as normal, rational, or low-cost inside policy workflows. U.S.-China AI talks increasingly need shared test standards for crisis stability, not only broad statements about human control.",
+          "source_label": "CSIS: The AI Escalation Danger",
+          "source_url": "https://www.csis.org/analysis/ai-escalation-danger-trump-and-xi-must-address"
         },
         {
-          "title": "Google Flags AI-Built Exploit Risk",
-          "summary": "Google Threat Intelligence Group said adversary use of generative AI is maturing into <a href='https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access' target='_blank'>industrial-scale operational workflows</a>. GTIG reported its first identification of a threat actor using a zero-day exploit it believes was developed with AI, alongside AI-augmented defense evasion, polymorphic malware, PROMPTSPY-style autonomous malware operations, and AI-supported information operations.",
-          "why_it_matters": "This moves AI cyber risk from theoretical capability to observed adversary tradecraft. The strategic concern is not merely smarter malware, but compressed development cycles that let actors discover, adapt, and operationalize exploits faster than defenders can triage exposure.",
-          "source_label": "Google Cloud / GTIG: AI threat tracker",
-          "source_url": "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access"
+          "title": "DoD AI Strategy Moves Operational",
+          "summary": "Federal News Network says DoD’s AI Acceleration Strategy marks a shift from isolated pilots to <a href='https://federalnewsnetwork.com/commentary/2026/05/dod-ai-acceleration-strategy-marks-move-toward-real-time-insight-heres-what-agencies-should-do-next/' target='_blank'>enterprise-wide operational use</a>. The article highlights real-time fusion of satellite, radar, and signals intelligence, plus the need for data fabrics, accreditation frameworks, AI literacy, and cross-functional mission teams.",
+          "why_it_matters": "Defense AI adoption is becoming an organizational redesign problem. The decisive question is whether agencies can connect data, governance, cyber accreditation, and operators quickly enough for machine-speed insight without creating brittle or untrusted decision chains.",
+          "source_label": "Federal News Network: DoD AI Acceleration Strategy",
+          "source_url": "https://federalnewsnetwork.com/commentary/2026/05/dod-ai-acceleration-strategy-marks-move-toward-real-time-insight-heres-what-agencies-should-do-next/"
         },
         {
-          "title": "Marines Make AI Literacy Mandatory",
-          "summary": "The Marine Corps mandated a <a href='https://defensescoop.com/2026/05/13/marine-corps-mandates-basic-ai-training-course-for-all-troops/' target='_blank'>Basic AI training course</a> for all troops to build foundational understanding of AI concepts and use cases. DefenseScoop reports the material points Marines toward GenAI.mil and commercial large language models while emphasizing awareness rather than technical expertise.",
-          "why_it_matters": "AI adoption is turning into a forcewide human-capital problem, not just a procurement problem. Basic literacy helps commanders and enlisted Marines recognize useful, risky, and misleading AI outputs before these systems become embedded in planning, logistics, intelligence, and decision-support workflows.",
-          "source_label": "DefenseScoop: Marine Corps Basic AI training",
-          "source_url": "https://defensescoop.com/2026/05/13/marine-corps-mandates-basic-ai-training-course-for-all-troops/"
+          "title": "Frontier AI Outruns Patching",
+          "summary": "Deloitte warns that frontier models can discover zero-day vulnerabilities at a speed and scale that strains banks’ <a href='https://www.deloitte.com/us/en/insights/industry/financial-services/banking-frontier-ai-models.html' target='_blank'>cyber remediation capacity</a>. The analysis says the bottleneck is shifting from finding vulnerabilities to prioritizing, executing, and governing fixes across complex banking technology estates.",
+          "why_it_matters": "AI-enabled cyber risk is becoming a tempo mismatch: discovery is accelerating faster than remediation workflows. The same dynamic applies beyond banks to government and defense networks that rely on open-source components, third-party platforms, cloud services, and legacy regulated systems.",
+          "source_label": "Deloitte: Frontier AI and cyber remediation",
+          "source_url": "https://www.deloitte.com/us/en/insights/industry/financial-services/banking-frontier-ai-models.html"
         }
       ]
     }
   },
   "archive": [
+    {
+      "id": "2026-05-15",
+      "date": "May 15, 2026",
+      "iso_date": "2026-05-15",
+      "title": "Daily Intel Briefing — May 15, 2026",
+      "summary": "Hypersonic Budget Line Tightens, OPIR Payload Completes Sensor Pair, Test Bottleneck Gets Commercial Attention, Two-Peer Nuclear Strategy Splits, Iran Nuclear Consensus Stalls, NPT Review Enters Disorder, AI Escalation Benchmarks Bite, DoD AI Strategy Moves Operational, Frontier AI Outruns Patching.",
+      "url": "archive/2026-05-15.json",
+      "item_count": 9
+    },
     {
       "id": "2026-05-14",
       "date": "May 14, 2026",
