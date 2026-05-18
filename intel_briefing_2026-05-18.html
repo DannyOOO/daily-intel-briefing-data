@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Intel Briefing — May 18, 2026</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --border: #21262d;
+    --accent-hyp: #58a6ff;
+    --accent-nuke: #f78166;
+    --accent-ai: #3fb950;
+    --text-primary: #e6edf3;
+    --text-secondary: #8b949e;
+    --tag-bg: #21262d;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 24px 16px 60px;
+  }
+  .container { max-width: 860px; margin: 0 auto; }
+
+  /* Header */
+  .header { text-align: center; padding: 32px 0 28px; border-bottom: 1px solid var(--border); margin-bottom: 32px; }
+  .header .logo { font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: var(--text-secondary); margin-bottom: 10px; }
+  .header h1 { font-size: 26px; font-weight: 700; color: var(--text-primary); margin-bottom: 6px; }
+  .header .meta { font-size: 13px; color: var(--text-secondary); }
+  .header .tagline { margin-top: 10px; font-size: 13px; color: var(--text-secondary); font-style: italic; }
+
+  /* Section headers */
+  .section { margin-bottom: 36px; }
+  .section-header {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 16px; border-radius: 8px;
+    margin-bottom: 16px; font-size: 12px;
+    font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
+  }
+  .section-header.hyp  { background: rgba(88,166,255,0.08); color: var(--accent-hyp);  border-left: 3px solid var(--accent-hyp); }
+  .section-header.nuke { background: rgba(247,129,102,0.08); color: var(--accent-nuke); border-left: 3px solid var(--accent-nuke); }
+  .section-header.ai   { background: rgba(63,185,80,0.08);  color: var(--accent-ai);   border-left: 3px solid var(--accent-ai); }
+
+  /* Cards */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px 22px;
+    margin-bottom: 14px;
+    transition: border-color 0.15s;
+  }
+  .card:hover { border-color: #30363d; }
+  .card-title { font-size: 16px; font-weight: 600; color: var(--text-primary); margin-bottom: 8px; line-height: 1.4; }
+  .card-body { font-size: 14px; color: var(--text-secondary); margin-bottom: 12px; line-height: 1.65; }
+  .card-body a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+  .card-body a:hover { color: var(--text-primary); }
+
+  /* Why it matters */
+  .wim {
+    background: rgba(255,255,255,0.03);
+    border-left: 3px solid #30363d;
+    border-radius: 0 6px 6px 0;
+    padding: 10px 14px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+  .wim strong { color: var(--text-primary); font-size: 11px; letter-spacing: 1px; text-transform: uppercase; display: block; margin-bottom: 4px; }
+
+  /* Source link */
+  .source-link {
+    display: inline-flex; align-items: center; gap: 5px;
+    margin-top: 12px; font-size: 12px; color: var(--text-secondary);
+    text-decoration: none; border: 1px solid var(--border);
+    padding: 4px 10px; border-radius: 20px;
+    transition: all 0.15s;
+  }
+  .source-link:hover { color: var(--text-primary); border-color: #58a6ff; background: rgba(88,166,255,0.06); }
+  .source-link svg { flex-shrink: 0; }
+
+  /* Footer */
+  .footer { text-align: center; margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--border); font-size: 12px; color: var(--text-secondary); }
+  .footer a { color: var(--text-secondary); }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    .header h1 { font-size: 20px; }
+    .card { padding: 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <div class="logo">Manus AI · Daily Intel Briefing</div>
+    <h1>Morning Intel Briefing</h1>
+    <div class="meta">May 18, 2026 · 07:00 EDT</div>
+    <div class="tagline">Your 3-minute download on what's moving the needle in hypersonics, nukes, and AI.</div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════ HYPERSONICS -->
+  <div class="section">
+    <div class="section-header hyp">⚡ Hypersonics &amp; Space Tracking</div>
+
+        <div class="card">
+      <div class="card-title">RangeHawk Attacks the Test-Range Bottleneck</div>
+      <div class="card-body">Northrop Grumman received a <a href='https://defence-blog.com/northrop-grumman-wins-325m-to-develop-drone-that-monitors-hypersonic-tests/' target='_blank'>$325.5 million Army contract</a> to develop RangeHawk, a high-altitude, long-endurance airborne test resource for high-speed weapons data collection. The prototype uses a universal payload architecture so different sensors can be integrated for different test campaigns, with completion expected by May 2031.</div>
+      <div class="wim">
+        <strong>Why It Matters</strong>
+        Hypersonic programs do not only need faster missiles; they need range infrastructure that can keep up with vehicles that rapidly outrun legacy instrumentation. A reusable airborne test asset could shorten the learn-test-fix loop that has repeatedly slowed U.S. hypersonic development.
+      </div>
+      <a class="source-link" href="https://defence-blog.com/northrop-grumman-wins-325m-to-develop-drone-that-monitors-hypersonic-tests/" target="_blank" rel="noopener"><svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/></svg> Defence Blog: Northrop Grumman wins $325M to develop drone that monitors hypersonic tests</a>
+    </div>
+    <div class="card">
+      <div class="card-title">Blackbeard Moves Toward Hypersonic Mass Production</div>
+      <div class="card-body">Castelion announced a <a href='https://www.castelion.com/news/castelion-and-department-of-war-sign-agreement/' target='_blank'>Department of War production framework</a> for Blackbeard, its low-cost hypersonic strike missile. After testing and validation, the framework sets a guaranteed minimum of 500 missiles per year and creates a pathway for much larger buys.</div>
+      <div class="wim">
+        <strong>Why It Matters</strong>
+        The important signal is not just another hypersonic prototype; it is the shift from boutique demonstrations toward munitions-scale production. A credible 500-per-year floor would pressure the industrial base, targeting doctrine and adversary air-defense planning all at once.
+      </div>
+      <a class="source-link" href="https://www.castelion.com/news/castelion-and-department-of-war-sign-agreement/" target="_blank" rel="noopener"><svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/></svg> Castelion: Castelion and Department of War sign agreement</a>
+    </div>
+    <div class="card">
+      <div class="card-title">Air Force Reopens the ARRW Follow-On Lane</div>
+      <div class="card-body">The Air Force FY2027 request seeks <a href='https://defensescoop.com/2026/05/13/air-force-wants-to-develop-follow-on-to-arrw-hypersonic-missile/' target='_blank'>$346 million for hypersonic prototyping</a>, including $296 million for ARRW Increment 2 and nearly $50 million for Air-Launched Ballistic Missile design. The same request includes $452 million for baseline ARRW procurement, $404 million to begin HACM procurement and $806 million for HACM testing and industrial-base work.</div>
+      <div class="wim">
+        <strong>Why It Matters</strong>
+        ARRW did not disappear after its troubled first round; the Air Force is preserving multiple air-launched strike paths. Keeping ARRW, ALBM and HACM moving in parallel suggests a portfolio strategy that values near-term inventory, survivable launch options and industrial learning over a single exquisite solution.
+      </div>
+      <a class="source-link" href="https://defensescoop.com/2026/05/13/air-force-wants-to-develop-follow-on-to-arrw-hypersonic-missile/" target="_blank" rel="noopener"><svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/></svg> DefenseScoop: Air Force wants to develop follow-on to ARRW hypersonic missile</a>
+    </div>
+
+  </div>
+
+  <!-- ═══════════════════════════════════════════════ NUCLEAR -->
+  <div class="section">
+    <div class="section-header nuke">☢️ Strategic Nuclear Systems</div>
+
+        <div class="card">
+      <div class="card-title">NNSA Asks for a 29 Percent Budget Jump</div>
+      <div class="card-body">A CRS budget report says <a href='https://www.congress.gov/crs_external_products/R/PDF/R48946/R48946.3.pdf' target='_blank'>NNSA requested $32.80 billion</a> for FY2027, $7.40 billion above FY2026 enacted discretionary funding. The request includes $27.44 billion for Weapons Activities, $2.39 billion for Defense Nuclear Nonproliferation and $2.39 billion for Naval Reactors.</div>
+      <div class="wim">
+        <strong>Why It Matters</strong>
+        The request shows nuclear modernization moving from policy rhetoric into heavy budget execution. The Weapons Activities increase is especially important because it funds warhead modernization, pit production, production infrastructure and accelerated design work that shape the credibility of the future deterrent.
+      </div>
+      <a class="source-link" href="https://www.congress.gov/crs_external_products/R/PDF/R48946/R48946.3.pdf" target="_blank" rel="noopener"><svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/></svg> CRS: NNSA FY2027 Budget and Policy Issues</a>
+    </div>
+    <div class="card">
+      <div class="card-title">House Mark Reinforces the Nuclear Enterprise</div>
+      <div class="card-body">House appropriators released the <a href='https://appropriations.house.gov/news/press-releases/committee-releases-fy27-energy-and-water-development-and-related-agencies' target='_blank'>FY2027 Energy and Water bill</a> with language emphasizing stockpile modernization, production capability and Naval Reactors sustainment. The release also highlights nuclear threat denial, detection and defeat while restricting China and Russia citizen access to U.S. nuclear weapons production facilities.</div>
+      <div class="wim">
+        <strong>Why It Matters</strong>
+        Congress is pairing modernization funding with tighter security controls around the nuclear complex. That combination reflects a deterrence environment where production resilience, counterintelligence and nuclear-support infrastructure now matter as much as headline warhead programs.
+      </div>
+      <a class="source-link" href="https://appropriations.house.gov/news/press-releases/committee-releases-fy27-energy-and-water-development-and-related-agencies" target="_blank" rel="noopener"><svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/></svg> House Appropriations: FY27 Energy and Water Development bill</a>
+    </div>
+    <div class="card">
+      <div class="card-title">Sentinel Gets Another Budget Anchor</div>
+      <div class="card-body">A budget analysis of the Air Force FY2027 request reports <a href='https://www.gtlaw.com/en/insights/2026/5/us-air-force-fy-2027-budget-request-key-trends-risks-and-implications' target='_blank'>$4.5 billion for the Sentinel ICBM program</a>. The analysis frames Sentinel as part of a broader shift away from legacy platforms toward systems intended for contested and technologically complex environments.</div>
+      <div class="wim">
+        <strong>Why It Matters</strong>
+        Sentinel remains one of the most consequential and difficult nuclear modernization programs because it replaces the land-based leg of the triad. Continued multibillion-dollar funding keeps the program politically and industrially alive, but it also keeps schedule, cost and basing-risk scrutiny high.
+      </div>
+      <a class="source-link" href="https://www.gtlaw.com/en/insights/2026/5/us-air-force-fy-2027-budget-request-key-trends-risks-and-implications" target="_blank" rel="noopener"><svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/></svg> Greenberg Traurig: US Air Force FY 2027 Budget Request</a>
+    </div>
+
+  </div>
+
+  <!-- ═══════════════════════════════════════════════ AI -->
+  <div class="section">
+    <div class="section-header ai">🤖 Artificial Intelligence</div>
+
+        <div class="card">
+      <div class="card-title">State Tests Agentic AI Against Malware Backlogs</div>
+      <div class="card-body">The State Department is testing <a href='https://fedscoop.com/state-department-testing-agentic-ai-malware-cyber-workforce/' target='_blank'>agentic AI for malware analysis</a> inside a sandbox, according to Ray Romano of State’s Cyber Threat and Investigations division. In one test, an agent sorted through malware on a thumb drive in 25 minutes instead of the four days a human analyst would need, while the agency measures both time saved and error rate before workflow integration.</div>
+      <div class="wim">
+        <strong>Why It Matters</strong>
+        This is a practical example of AI moving from chat assistance into cyber operations triage. The caution is just as important as the speedup: State is treating governance, validation and error-rate measurement as mission controls, not paperwork.
+      </div>
+      <a class="source-link" href="https://fedscoop.com/state-department-testing-agentic-ai-malware-cyber-workforce/" target="_blank" rel="noopener"><svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/></svg> FedScoop: State Department is testing agentic AI to buy back time for workers</a>
+    </div>
+    <div class="card">
+      <div class="card-title">Marines Make Basic AI Training Mandatory</div>
+      <div class="card-body">The Marine Corps now requires all active-duty Marines and reservists to complete a <a href='https://defensescoop.com/2026/05/13/marine-corps-mandates-basic-ai-training-course-for-all-troops/' target='_blank'>Basic AI Course</a> by the end of calendar year 2026. The 45-minute MCELE course covers foundational AI concepts, decision-support use cases, GenAI.mil and commercial large language models, with more advanced courses planned next fiscal year.</div>
+      <div class="wim">
+        <strong>Why It Matters</strong>
+        This is a workforce-mobilization move, not a software announcement. The Corps is trying to normalize AI literacy across the force so adoption does not remain trapped in specialist cells or innovation offices.
+      </div>
+      <a class="source-link" href="https://defensescoop.com/2026/05/13/marine-corps-mandates-basic-ai-training-course-for-all-troops/" target="_blank" rel="noopener"><svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/></svg> DefenseScoop: Marine Corps mandates Basic AI training course for all troops</a>
+    </div>
+    <div class="card">
+      <div class="card-title">DOE Implements Federal AI Trust Guardrails</div>
+      <div class="card-body">The Energy Department issued implementation guidance for <a href='https://www.energy.gov/management/pf-2026-45-implementation-omb-memo-m-26-04-increasing-public-trust-artificial' target='_blank'>OMB Memo M-26-04 on increasing public trust in artificial intelligence</a>. The move fits the broader federal shift from AI experimentation toward documented governance, risk controls and public-trust requirements for agency use of AI systems.</div>
+      <div class="wim">
+        <strong>Why It Matters</strong>
+        DOE sits at the intersection of nuclear security, energy infrastructure, laboratories and high-performance computing, so its AI governance posture has national-security spillover. Stronger trust and accountability rules are not glamorous, but they determine whether AI can be deployed in sensitive missions without creating a second-order risk problem.
+      </div>
+      <a class="source-link" href="https://www.energy.gov/management/pf-2026-45-implementation-omb-memo-m-26-04-increasing-public-trust-artificial" target="_blank" rel="noopener"><svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"/></svg> Department of Energy: Implementation of OMB Memo M-26-04</a>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    Compiled by Manus AI · Sources verified as of 07:00 EDT · May 18, 2026
+  </div>
+
+</div>
+</body>
+</html>

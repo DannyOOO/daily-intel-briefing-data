@@ -1,88 +1,97 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-05-17T11:09:33.754727Z",
+  "updated_at": "2026-05-18T11:19:41.301672Z",
   "edition": {
-    "id": "2026-05-17",
-    "date": "May 17, 2026",
-    "iso_date": "2026-05-17",
+    "id": "2026-05-18",
+    "date": "May 18, 2026",
+    "iso_date": "2026-05-18",
     "time": "07:00 EDT",
-    "title": "Daily Intel Briefing — May 17, 2026",
+    "title": "Daily Intel Briefing — May 18, 2026",
     "subtitle": "Nine signal items across hypersonics and space tracking, strategic nuclear systems, and artificial intelligence.",
-    "analyst_note": "Today’s through-line is escalation in system integration. Missile defense is being priced and reorganized around layered space-enabled architectures; strategic nuclear forces are absorbing Russian ICBM signaling, bomber modernization risk, and summit-level stability ambiguity; and AI-enabled cyber operations are moving from benchmark acceleration into operational doctrine and vulnerability workflows.",
+    "analyst_note": "Today’s through-line is industrial execution under governance pressure. Hypersonics are moving from missiles alone to the test infrastructure and production pathways needed to field them; the nuclear enterprise is absorbing another large modernization funding push; and AI adoption is shifting from experiments into governed mission workflows, training mandates, and trust controls.",
     "read_time": "Under 3 minutes",
     "sections": {
       "hypersonics": [
         {
-          "title": "Golden Dome Costed at $1.2 Trillion",
-          "summary": "CBO estimates a national missile defense architecture broadly aligned with <a href='https://www.cbo.gov/publication/62379' target='_blank'>Golden Dome for America</a> would cost about $1.2 trillion in 2026 dollars to develop, deploy, and operate for 20 years. The notional architecture includes space-based interceptors, two wide-area surface layers, a regional sector layer, sensors, communications, and battle-management systems.",
-          "why_it_matters": "The estimate gives Congress a concrete price tag for a space-heavy missile-defense vision before DoD has released an objective architecture. It also frames the fiscal trade space for hypersonic and ballistic missile defense: a layered design may increase resilience, but the scale of cost could force sharper choices among interceptors, proliferated sensors, and command-and-control investments.",
-          "source_label": "CBO: Potential Costs of a National Missile Defense System",
-          "source_url": "https://www.cbo.gov/publication/62379"
+          "title": "RangeHawk Attacks the Test-Range Bottleneck",
+          "summary": "Northrop Grumman received a <a href='https://defence-blog.com/northrop-grumman-wins-325m-to-develop-drone-that-monitors-hypersonic-tests/' target='_blank'>$325.5 million Army contract</a> to develop RangeHawk, a high-altitude, long-endurance airborne test resource for high-speed weapons data collection. The prototype uses a universal payload architecture so different sensors can be integrated for different test campaigns, with completion expected by May 2031.",
+          "why_it_matters": "Hypersonic programs do not only need faster missiles; they need range infrastructure that can keep up with vehicles that rapidly outrun legacy instrumentation. A reusable airborne test asset could shorten the learn-test-fix loop that has repeatedly slowed U.S. hypersonic development.",
+          "source_label": "Defence Blog: Northrop Grumman wins $325M to develop drone that monitors hypersonic tests",
+          "source_url": "https://defence-blog.com/northrop-grumman-wins-325m-to-develop-drone-that-monitors-hypersonic-tests/"
         },
         {
-          "title": "SDA Folded Toward Missile-Tracking Portfolio",
-          "summary": "The Space Force is reshaping SDA programs by moving the Transport Layer into a broader <a href='https://spacenews.com/york-space-defends-growth-strategy-as-sda-programs-are-reshaped/' target='_blank'>Space Data Network</a> and folding SDA into the missile warning and tracking portfolio structure. FY2027 plans seek nearly $1.5 billion, including $685 million for proliferated LEO mesh deployment and $800 million to on-ramp additional vendors.",
-          "why_it_matters": "This is a structural shift in how the Pentagon buys the space backbone needed for hypersonic warning, tracking, and resilient communications. The vendor-on-ramp funding suggests DoD wants competition beyond any single commercial constellation, but reconciliation-based funding leaves execution vulnerable to congressional pushback.",
-          "source_label": "SpaceNews: York Space defends growth strategy as SDA programs are reshaped",
-          "source_url": "https://spacenews.com/york-space-defends-growth-strategy-as-sda-programs-are-reshaped/"
+          "title": "Blackbeard Moves Toward Hypersonic Mass Production",
+          "summary": "Castelion announced a <a href='https://www.castelion.com/news/castelion-and-department-of-war-sign-agreement/' target='_blank'>Department of War production framework</a> for Blackbeard, its low-cost hypersonic strike missile. After testing and validation, the framework sets a guaranteed minimum of 500 missiles per year and creates a pathway for much larger buys.",
+          "why_it_matters": "The important signal is not just another hypersonic prototype; it is the shift from boutique demonstrations toward munitions-scale production. A credible 500-per-year floor would pressure the industrial base, targeting doctrine and adversary air-defense planning all at once.",
+          "source_label": "Castelion: Castelion and Department of War sign agreement",
+          "source_url": "https://www.castelion.com/news/castelion-and-department-of-war-sign-agreement/"
         },
         {
-          "title": "Common Hypersonic Glide Body Moves Toward Production",
-          "summary": "Leidos says it won a <a href='https://www.leidos.com/insights/leidos-accelerate-hypersonic-weapons-production-us-army-and-navy' target='_blank'>$2.7 billion U.S. Army contract</a> to move hypersonic weapons from prototyping toward production. The award unifies Thermal Protection Shield and Common Hypersonic Glide Body work for Army and Navy production-readiness.",
-          "why_it_matters": "The U.S. hypersonics problem has been less about isolated demonstrations than about repeatable manufacturing, thermal protection, and supply-chain maturity. A production-focused contract signals a transition from bespoke prototypes toward operational stockpiles, which will determine whether Army and Navy hypersonic concepts become credible deployed forces.",
-          "source_label": "Leidos: Hypersonic weapons production for U.S. Army and Navy",
-          "source_url": "https://www.leidos.com/insights/leidos-accelerate-hypersonic-weapons-production-us-army-and-navy"
+          "title": "Air Force Reopens the ARRW Follow-On Lane",
+          "summary": "The Air Force FY2027 request seeks <a href='https://defensescoop.com/2026/05/13/air-force-wants-to-develop-follow-on-to-arrw-hypersonic-missile/' target='_blank'>$346 million for hypersonic prototyping</a>, including $296 million for ARRW Increment 2 and nearly $50 million for Air-Launched Ballistic Missile design. The same request includes $452 million for baseline ARRW procurement, $404 million to begin HACM procurement and $806 million for HACM testing and industrial-base work.",
+          "why_it_matters": "ARRW did not disappear after its troubled first round; the Air Force is preserving multiple air-launched strike paths. Keeping ARRW, ALBM and HACM moving in parallel suggests a portfolio strategy that values near-term inventory, survivable launch options and industrial learning over a single exquisite solution.",
+          "source_label": "DefenseScoop: Air Force wants to develop follow-on to ARRW hypersonic missile",
+          "source_url": "https://defensescoop.com/2026/05/13/air-force-wants-to-develop-follow-on-to-arrw-hypersonic-missile/"
         }
       ],
       "nuclear": [
         {
-          "title": "Sarmat Test Revives Russian ICBM Modernization",
-          "summary": "Russia test-fired the nuclear-armed <a href='https://apnews.com/article/putin-intercontinental-ballistic-missile-sarmat-2dcf48ff661b968f578a559d42d40445' target='_blank'>Sarmat intercontinental ballistic missile</a>, and Vladimir Putin said it would enter combat service by year-end. AP reports Sarmat is intended to replace roughly 40 Soviet-era Voyevoda missiles and is claimed by Moscow to have suborbital flight and more than 35,000 km range.",
-          "why_it_matters": "If fielded on the stated timeline, Sarmat would refresh a key leg of Russia’s silo-based strategic force after years of delays and failed testing. Moscow is also explicitly linking the system to defeating U.S. missile defenses, making it part of the same offense-defense competition now driving Golden Dome debates in Washington.",
-          "source_label": "AP News: Putin hails Russia's Sarmat test launch",
-          "source_url": "https://apnews.com/article/putin-intercontinental-ballistic-missile-sarmat-2dcf48ff661b968f578a559d42d40445"
+          "title": "NNSA Asks for a 29 Percent Budget Jump",
+          "summary": "A CRS budget report says <a href='https://www.congress.gov/crs_external_products/R/PDF/R48946/R48946.3.pdf' target='_blank'>NNSA requested $32.80 billion</a> for FY2027, $7.40 billion above FY2026 enacted discretionary funding. The request includes $27.44 billion for Weapons Activities, $2.39 billion for Defense Nuclear Nonproliferation and $2.39 billion for Naval Reactors.",
+          "why_it_matters": "The request shows nuclear modernization moving from policy rhetoric into heavy budget execution. The Weapons Activities increase is especially important because it funds warhead modernization, pit production, production infrastructure and accelerated design work that shape the credibility of the future deterrent.",
+          "source_label": "CRS: NNSA FY2027 Budget and Policy Issues",
+          "source_url": "https://www.congress.gov/crs_external_products/R/PDF/R48946/R48946.3.pdf"
         },
         {
-          "title": "Trump-Xi Summit Splits on Strategic Stability Framing",
-          "summary": "U.S. and Chinese readouts of the <a href='https://www.aljazeera.com/news/2026/5/15/trump-xi-summit-china-us-disagree-on-what-they-agreed-on' target='_blank'>Trump-Xi summit</a> diverged on several security issues, including Iran and the framing of strategic stability. The White House said both leaders agreed Iran can never have a nuclear weapon, while China emphasized political settlement and a three-year vision for constructive U.S.-China strategic stability.",
-          "why_it_matters": "The gap between U.S. and Chinese readouts shows how fragile great-power nuclear-risk management remains even when both sides claim progress. The strategic-stability language matters because any future U.S.-China-Russia arms framework will depend first on whether Beijing is willing to translate broad stability rhetoric into constraints, transparency, or crisis-management mechanisms.",
-          "source_label": "Al Jazeera: Trump-Xi summit readouts diverge",
-          "source_url": "https://www.aljazeera.com/news/2026/5/15/trump-xi-summit-china-us-disagree-on-what-they-agreed-on"
+          "title": "House Mark Reinforces the Nuclear Enterprise",
+          "summary": "House appropriators released the <a href='https://appropriations.house.gov/news/press-releases/committee-releases-fy27-energy-and-water-development-and-related-agencies' target='_blank'>FY2027 Energy and Water bill</a> with language emphasizing stockpile modernization, production capability and Naval Reactors sustainment. The release also highlights nuclear threat denial, detection and defeat while restricting China and Russia citizen access to U.S. nuclear weapons production facilities.",
+          "why_it_matters": "Congress is pairing modernization funding with tighter security controls around the nuclear complex. That combination reflects a deterrence environment where production resilience, counterintelligence and nuclear-support infrastructure now matter as much as headline warhead programs.",
+          "source_label": "House Appropriations: FY27 Energy and Water Development bill",
+          "source_url": "https://appropriations.house.gov/news/press-releases/committee-releases-fy27-energy-and-water-development-and-related-agencies"
         },
         {
-          "title": "B-52 Modernization Stabilizes After Cost Breaches",
-          "summary": "An Air Force acquisition official told lawmakers B-52 modernization cost and schedule have <a href='https://breakingdefense.com/2026/05/b-52-modernization-stabilized-after-cost-spikes-schedule-delays-air-force-official-says/' target='_blank'>stabilized</a> after major delays and cost growth. The effort includes a roughly $15 billion engine replacement now targeting initial operational capability in 2033 and a radar upgrade expected in 2030 after a Nunn-McCurdy breach.",
-          "why_it_matters": "The B-52 remains central to U.S. nuclear and long-range conventional strike planning because it bridges today’s bomber force to the B-21 era. Stabilization reduces near-term program risk, but the delayed IOC dates underscore how bomber modernization timelines are now colliding with an accelerating strategic competition cycle.",
-          "source_label": "Breaking Defense: B-52 modernization stabilized",
-          "source_url": "https://breakingdefense.com/2026/05/b-52-modernization-stabilized-after-cost-spikes-schedule-delays-air-force-official-says/"
+          "title": "Sentinel Gets Another Budget Anchor",
+          "summary": "A budget analysis of the Air Force FY2027 request reports <a href='https://www.gtlaw.com/en/insights/2026/5/us-air-force-fy-2027-budget-request-key-trends-risks-and-implications' target='_blank'>$4.5 billion for the Sentinel ICBM program</a>. The analysis frames Sentinel as part of a broader shift away from legacy platforms toward systems intended for contested and technologically complex environments.",
+          "why_it_matters": "Sentinel remains one of the most consequential and difficult nuclear modernization programs because it replaces the land-based leg of the triad. Continued multibillion-dollar funding keeps the program politically and industrially alive, but it also keeps schedule, cost and basing-risk scrutiny high.",
+          "source_label": "Greenberg Traurig: US Air Force FY 2027 Budget Request",
+          "source_url": "https://www.gtlaw.com/en/insights/2026/5/us-air-force-fy-2027-budget-request-key-trends-risks-and-implications"
         }
       ],
       "ai": [
         {
-          "title": "Frontier Models Surge in Vulnerability Discovery",
-          "summary": "Palo Alto Networks reported frontier AI systems helped identify <a href='https://www.cybersecuritydive.com/news/frontier-ai-rapid-discovery-security-vulnerabilities/820258/' target='_blank'>26 CVEs in a Patch Wednesday cycle</a>, compared with its typical volume of about five. The company warned defenders may have only a three- to five-month window before AI-driven exploitation becomes normal.",
-          "why_it_matters": "This compresses the defender’s timeline from patch management to near-continuous exposure management. If the same model capabilities diffuse to adversaries, vulnerability discovery will become less constrained by expert labor and more by compute, tooling, and access to targets.",
-          "source_label": "Cybersecurity Dive: Frontier AI accelerates CVE discovery",
-          "source_url": "https://www.cybersecuritydive.com/news/frontier-ai-rapid-discovery-security-vulnerabilities/820258/"
+          "title": "State Tests Agentic AI Against Malware Backlogs",
+          "summary": "The State Department is testing <a href='https://fedscoop.com/state-department-testing-agentic-ai-malware-cyber-workforce/' target='_blank'>agentic AI for malware analysis</a> inside a sandbox, according to Ray Romano of State’s Cyber Threat and Investigations division. In one test, an agent sorted through malware on a thumb drive in 25 minutes instead of the four days a human analyst would need, while the agency measures both time saved and error rate before workflow integration.",
+          "why_it_matters": "This is a practical example of AI moving from chat assistance into cyber operations triage. The caution is just as important as the speedup: State is treating governance, validation and error-rate measurement as mission controls, not paperwork.",
+          "source_label": "FedScoop: State Department is testing agentic AI to buy back time for workers",
+          "source_url": "https://fedscoop.com/state-department-testing-agentic-ai-malware-cyber-workforce/"
         },
         {
-          "title": "Autonomous Cyber Capability Doubles Every 4.7 Months",
-          "summary": "The UK AI Security Institute estimates frontier models’ 80%-reliability cyber task horizon has <a href='https://www.aisi.gov.uk/blog/how-fast-is-autonomous-ai-cyber-capability-advancing' target='_blank'>doubled every 4.7 months</a> since late 2024. A newer Mythos Preview checkpoint reportedly completed both AISI cyber ranges, including the first completion of the “Cooling Tower” range.",
-          "why_it_matters": "The important signal is not a single benchmark win; it is the steep slope of autonomous task duration and reliability. Defense organizations should treat cyber-AI capability as a moving target that can cross operational thresholds within planning cycles, not budget cycles.",
-          "source_label": "UK AISI: Autonomous AI cyber capability advancing",
-          "source_url": "https://www.aisi.gov.uk/blog/how-fast-is-autonomous-ai-cyber-capability-advancing"
+          "title": "Marines Make Basic AI Training Mandatory",
+          "summary": "The Marine Corps now requires all active-duty Marines and reservists to complete a <a href='https://defensescoop.com/2026/05/13/marine-corps-mandates-basic-ai-training-course-for-all-troops/' target='_blank'>Basic AI Course</a> by the end of calendar year 2026. The 45-minute MCELE course covers foundational AI concepts, decision-support use cases, GenAI.mil and commercial large language models, with more advanced courses planned next fiscal year.",
+          "why_it_matters": "This is a workforce-mobilization move, not a software announcement. The Corps is trying to normalize AI literacy across the force so adoption does not remain trapped in specialist cells or innovation offices.",
+          "source_label": "DefenseScoop: Marine Corps mandates Basic AI training course for all troops",
+          "source_url": "https://defensescoop.com/2026/05/13/marine-corps-mandates-basic-ai-training-course-for-all-troops/"
         },
         {
-          "title": "Pentagon Calls Advanced AI a Warfare Watershed",
-          "summary": "A senior Pentagon cyber policy official said advanced AI models such as Mythos could create a <a href='https://cyberscoop.com/pentagon-cyber-ai-revolutionary-warfare-mythos/' target='_blank'>watershed moment for offensive and defensive warfare</a>. CyberScoop reports the department is assessing authorities and employment concepts while using Mythos for vulnerability hunting despite supply-chain concerns.",
-          "why_it_matters": "The Pentagon is moving from abstract AI interest to doctrine, authorities, and operational employment questions. That transition is where AI becomes strategically meaningful: not because models are impressive, but because institutions start adapting rules of engagement, acquisition, and cyber operations around them.",
-          "source_label": "CyberScoop: Pentagon cyber official on AI warfare",
-          "source_url": "https://cyberscoop.com/pentagon-cyber-ai-revolutionary-warfare-mythos/"
+          "title": "DOE Implements Federal AI Trust Guardrails",
+          "summary": "The Energy Department issued implementation guidance for <a href='https://www.energy.gov/management/pf-2026-45-implementation-omb-memo-m-26-04-increasing-public-trust-artificial' target='_blank'>OMB Memo M-26-04 on increasing public trust in artificial intelligence</a>. The move fits the broader federal shift from AI experimentation toward documented governance, risk controls and public-trust requirements for agency use of AI systems.",
+          "why_it_matters": "DOE sits at the intersection of nuclear security, energy infrastructure, laboratories and high-performance computing, so its AI governance posture has national-security spillover. Stronger trust and accountability rules are not glamorous, but they determine whether AI can be deployed in sensitive missions without creating a second-order risk problem.",
+          "source_label": "Department of Energy: Implementation of OMB Memo M-26-04",
+          "source_url": "https://www.energy.gov/management/pf-2026-45-implementation-omb-memo-m-26-04-increasing-public-trust-artificial"
         }
       ]
     }
   },
   "archive": [
+    {
+      "id": "2026-05-18",
+      "date": "May 18, 2026",
+      "iso_date": "2026-05-18",
+      "title": "Daily Intel Briefing — May 18, 2026",
+      "summary": "RangeHawk Attacks the Test-Range Bottleneck, Blackbeard Moves Toward Hypersonic Mass Production, Air Force Reopens the ARRW Follow-On Lane, NNSA Asks for a 29 Percent Budget Jump, House Mark Reinforces the Nuclear Enterprise, Sentinel Gets Another Budget Anchor, State Tests Agentic AI Against Malware Backlogs, Marines Make Basic AI Training Mandatory, DOE Implements Federal AI Trust Guardrails.",
+      "url": "archive/2026-05-18.json",
+      "item_count": 9
+    },
     {
       "id": "2026-05-17",
       "date": "May 17, 2026",

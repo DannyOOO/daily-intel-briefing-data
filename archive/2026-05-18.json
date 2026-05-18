@@ -1,0 +1,81 @@
+{
+  "id": "2026-05-18",
+  "date": "May 18, 2026",
+  "iso_date": "2026-05-18",
+  "time": "07:00 EDT",
+  "title": "Daily Intel Briefing — May 18, 2026",
+  "subtitle": "Nine signal items across hypersonics and space tracking, strategic nuclear systems, and artificial intelligence.",
+  "analyst_note": "Today’s through-line is industrial execution under governance pressure. Hypersonics are moving from missiles alone to the test infrastructure and production pathways needed to field them; the nuclear enterprise is absorbing another large modernization funding push; and AI adoption is shifting from experiments into governed mission workflows, training mandates, and trust controls.",
+  "read_time": "Under 3 minutes",
+  "sections": {
+    "hypersonics": [
+      {
+        "title": "RangeHawk Attacks the Test-Range Bottleneck",
+        "summary": "Northrop Grumman received a <a href='https://defence-blog.com/northrop-grumman-wins-325m-to-develop-drone-that-monitors-hypersonic-tests/' target='_blank'>$325.5 million Army contract</a> to develop RangeHawk, a high-altitude, long-endurance airborne test resource for high-speed weapons data collection. The prototype uses a universal payload architecture so different sensors can be integrated for different test campaigns, with completion expected by May 2031.",
+        "why_it_matters": "Hypersonic programs do not only need faster missiles; they need range infrastructure that can keep up with vehicles that rapidly outrun legacy instrumentation. A reusable airborne test asset could shorten the learn-test-fix loop that has repeatedly slowed U.S. hypersonic development.",
+        "source_label": "Defence Blog: Northrop Grumman wins $325M to develop drone that monitors hypersonic tests",
+        "source_url": "https://defence-blog.com/northrop-grumman-wins-325m-to-develop-drone-that-monitors-hypersonic-tests/"
+      },
+      {
+        "title": "Blackbeard Moves Toward Hypersonic Mass Production",
+        "summary": "Castelion announced a <a href='https://www.castelion.com/news/castelion-and-department-of-war-sign-agreement/' target='_blank'>Department of War production framework</a> for Blackbeard, its low-cost hypersonic strike missile. After testing and validation, the framework sets a guaranteed minimum of 500 missiles per year and creates a pathway for much larger buys.",
+        "why_it_matters": "The important signal is not just another hypersonic prototype; it is the shift from boutique demonstrations toward munitions-scale production. A credible 500-per-year floor would pressure the industrial base, targeting doctrine and adversary air-defense planning all at once.",
+        "source_label": "Castelion: Castelion and Department of War sign agreement",
+        "source_url": "https://www.castelion.com/news/castelion-and-department-of-war-sign-agreement/"
+      },
+      {
+        "title": "Air Force Reopens the ARRW Follow-On Lane",
+        "summary": "The Air Force FY2027 request seeks <a href='https://defensescoop.com/2026/05/13/air-force-wants-to-develop-follow-on-to-arrw-hypersonic-missile/' target='_blank'>$346 million for hypersonic prototyping</a>, including $296 million for ARRW Increment 2 and nearly $50 million for Air-Launched Ballistic Missile design. The same request includes $452 million for baseline ARRW procurement, $404 million to begin HACM procurement and $806 million for HACM testing and industrial-base work.",
+        "why_it_matters": "ARRW did not disappear after its troubled first round; the Air Force is preserving multiple air-launched strike paths. Keeping ARRW, ALBM and HACM moving in parallel suggests a portfolio strategy that values near-term inventory, survivable launch options and industrial learning over a single exquisite solution.",
+        "source_label": "DefenseScoop: Air Force wants to develop follow-on to ARRW hypersonic missile",
+        "source_url": "https://defensescoop.com/2026/05/13/air-force-wants-to-develop-follow-on-to-arrw-hypersonic-missile/"
+      }
+    ],
+    "nuclear": [
+      {
+        "title": "NNSA Asks for a 29 Percent Budget Jump",
+        "summary": "A CRS budget report says <a href='https://www.congress.gov/crs_external_products/R/PDF/R48946/R48946.3.pdf' target='_blank'>NNSA requested $32.80 billion</a> for FY2027, $7.40 billion above FY2026 enacted discretionary funding. The request includes $27.44 billion for Weapons Activities, $2.39 billion for Defense Nuclear Nonproliferation and $2.39 billion for Naval Reactors.",
+        "why_it_matters": "The request shows nuclear modernization moving from policy rhetoric into heavy budget execution. The Weapons Activities increase is especially important because it funds warhead modernization, pit production, production infrastructure and accelerated design work that shape the credibility of the future deterrent.",
+        "source_label": "CRS: NNSA FY2027 Budget and Policy Issues",
+        "source_url": "https://www.congress.gov/crs_external_products/R/PDF/R48946/R48946.3.pdf"
+      },
+      {
+        "title": "House Mark Reinforces the Nuclear Enterprise",
+        "summary": "House appropriators released the <a href='https://appropriations.house.gov/news/press-releases/committee-releases-fy27-energy-and-water-development-and-related-agencies' target='_blank'>FY2027 Energy and Water bill</a> with language emphasizing stockpile modernization, production capability and Naval Reactors sustainment. The release also highlights nuclear threat denial, detection and defeat while restricting China and Russia citizen access to U.S. nuclear weapons production facilities.",
+        "why_it_matters": "Congress is pairing modernization funding with tighter security controls around the nuclear complex. That combination reflects a deterrence environment where production resilience, counterintelligence and nuclear-support infrastructure now matter as much as headline warhead programs.",
+        "source_label": "House Appropriations: FY27 Energy and Water Development bill",
+        "source_url": "https://appropriations.house.gov/news/press-releases/committee-releases-fy27-energy-and-water-development-and-related-agencies"
+      },
+      {
+        "title": "Sentinel Gets Another Budget Anchor",
+        "summary": "A budget analysis of the Air Force FY2027 request reports <a href='https://www.gtlaw.com/en/insights/2026/5/us-air-force-fy-2027-budget-request-key-trends-risks-and-implications' target='_blank'>$4.5 billion for the Sentinel ICBM program</a>. The analysis frames Sentinel as part of a broader shift away from legacy platforms toward systems intended for contested and technologically complex environments.",
+        "why_it_matters": "Sentinel remains one of the most consequential and difficult nuclear modernization programs because it replaces the land-based leg of the triad. Continued multibillion-dollar funding keeps the program politically and industrially alive, but it also keeps schedule, cost and basing-risk scrutiny high.",
+        "source_label": "Greenberg Traurig: US Air Force FY 2027 Budget Request",
+        "source_url": "https://www.gtlaw.com/en/insights/2026/5/us-air-force-fy-2027-budget-request-key-trends-risks-and-implications"
+      }
+    ],
+    "ai": [
+      {
+        "title": "State Tests Agentic AI Against Malware Backlogs",
+        "summary": "The State Department is testing <a href='https://fedscoop.com/state-department-testing-agentic-ai-malware-cyber-workforce/' target='_blank'>agentic AI for malware analysis</a> inside a sandbox, according to Ray Romano of State’s Cyber Threat and Investigations division. In one test, an agent sorted through malware on a thumb drive in 25 minutes instead of the four days a human analyst would need, while the agency measures both time saved and error rate before workflow integration.",
+        "why_it_matters": "This is a practical example of AI moving from chat assistance into cyber operations triage. The caution is just as important as the speedup: State is treating governance, validation and error-rate measurement as mission controls, not paperwork.",
+        "source_label": "FedScoop: State Department is testing agentic AI to buy back time for workers",
+        "source_url": "https://fedscoop.com/state-department-testing-agentic-ai-malware-cyber-workforce/"
+      },
+      {
+        "title": "Marines Make Basic AI Training Mandatory",
+        "summary": "The Marine Corps now requires all active-duty Marines and reservists to complete a <a href='https://defensescoop.com/2026/05/13/marine-corps-mandates-basic-ai-training-course-for-all-troops/' target='_blank'>Basic AI Course</a> by the end of calendar year 2026. The 45-minute MCELE course covers foundational AI concepts, decision-support use cases, GenAI.mil and commercial large language models, with more advanced courses planned next fiscal year.",
+        "why_it_matters": "This is a workforce-mobilization move, not a software announcement. The Corps is trying to normalize AI literacy across the force so adoption does not remain trapped in specialist cells or innovation offices.",
+        "source_label": "DefenseScoop: Marine Corps mandates Basic AI training course for all troops",
+        "source_url": "https://defensescoop.com/2026/05/13/marine-corps-mandates-basic-ai-training-course-for-all-troops/"
+      },
+      {
+        "title": "DOE Implements Federal AI Trust Guardrails",
+        "summary": "The Energy Department issued implementation guidance for <a href='https://www.energy.gov/management/pf-2026-45-implementation-omb-memo-m-26-04-increasing-public-trust-artificial' target='_blank'>OMB Memo M-26-04 on increasing public trust in artificial intelligence</a>. The move fits the broader federal shift from AI experimentation toward documented governance, risk controls and public-trust requirements for agency use of AI systems.",
+        "why_it_matters": "DOE sits at the intersection of nuclear security, energy infrastructure, laboratories and high-performance computing, so its AI governance posture has national-security spillover. Stronger trust and accountability rules are not glamorous, but they determine whether AI can be deployed in sensitive missions without creating a second-order risk problem.",
+        "source_label": "Department of Energy: Implementation of OMB Memo M-26-04",
+        "source_url": "https://www.energy.gov/management/pf-2026-45-implementation-omb-memo-m-26-04-increasing-public-trust-artificial"
+      }
+    ]
+  }
+}
